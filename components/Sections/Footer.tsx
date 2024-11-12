@@ -3,20 +3,20 @@ import Logo from "../ui/Logo";
 import Image from "next/image";
 export default function Footer() {
   return (
-    <footer className="bg-white border-t-4 border-indigo-700">
+    <footer className="bg-gray-950 border-t-4 border-indigo-700">
       <div className="container px-6 py-8 mx-auto">
         <div className="flex flex-col items-center text-center">
           <div>
-            <div className="flex items-center space-x-4 p-4 bg-white max-sm:bg-transparent rounded-lg w-full max-w-sm mx-auto">
+            <div className="flex items-center space-x-4 p-4 max-sm:bg-transparent rounded-lg w-full max-w-sm mx-auto">
               <div className="flex-shrink-0">
                 <Image src="/logo.png" width={100} height={100} alt="logo" />
               </div>
               <div className="flex flex-col text-left space-y-1">
-                <h1 className="text-lg md:text-xl font-bold leading-tight text-gray-800">
+                <h1 className="text-lg md:text-xl font-bold leading-tight text-white">
                   Askar Co. for <br />
                   General Contracting
                 </h1>
-                <p className="text-xs md:text-sm text-gray-500 font-medium">
+                <p className="text-xs md:text-sm text-gray-100 font-medium">
                   عسكر للمقاولات العمومية
                 </p>
               </div>
@@ -26,7 +26,7 @@ export default function Footer() {
           <div className="flex flex-wrap justify-center mt-6 -mx-4">
             <a
               href="#"
-              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-indigo-500"
+              className="mx-4 text-sm text-gray-100 transition-colors duration-300 hover:text-indigo-500"
               aria-label="Reddit"
             >
               Home
@@ -34,7 +34,7 @@ export default function Footer() {
 
             <a
               href="#"
-              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-indigo-500"
+              className="mx-4 text-sm text-gray-100 transition-colors duration-300 hover:text-indigo-500"
               aria-label="Reddit"
             >
               Projects
@@ -42,7 +42,7 @@ export default function Footer() {
 
             <a
               href="#"
-              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-indigo-500"
+              className="mx-4 text-sm text-gray-100 transition-colors duration-300 hover:text-indigo-500"
               aria-label="Reddit"
             >
               About Us
@@ -50,7 +50,7 @@ export default function Footer() {
 
             <a
               href="#"
-              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-indigo-500"
+              className="mx-4 text-sm text-gray-100 transition-colors duration-300 hover:text-indigo-500"
               aria-label="Reddit"
             >
               Contact Us
@@ -64,7 +64,7 @@ export default function Footer() {
           <div className="flex -mx-2">
             <a
               href="#"
-              className="mx-2 text-gray-600 transition-colors duration-300 hover:text-indigo-500 "
+              className="mx-2 text-gray-100 transition-colors duration-300 hover:text-indigo-500 "
               aria-label="Reddit"
             >
               <FaFacebook className="" />
@@ -72,7 +72,7 @@ export default function Footer() {
 
             <a
               href="#"
-              className="mx-2 text-gray-600 transition-colors duration-300 hover:text-indigo-500 "
+              className="mx-2 text-gray-100 transition-colors duration-300 hover:text-indigo-500 "
               aria-label="Facebook"
             >
               <FaLinkedin className="" />
@@ -80,13 +80,13 @@ export default function Footer() {
 
             <a
               href="#"
-              className="mx-2 text-gray-600 transition-colors duration-300 hover:text-indigo-500 "
+              className="mx-2 text-gray-100 transition-colors duration-300 hover:text-indigo-500 "
               aria-label="Github"
             >
               <FaInstagram className="" />
             </a>
           </div>
-          <p className="text-sm text-gray-500 max-sm:mt-2">
+          <p className="text-sm text-gray-50 max-sm:mt-2">
             ©Copyright 2025. All Rights Reserved.
           </p>
         </div>

@@ -6,7 +6,7 @@ export default function State() {
       <div className="grid grid-cols-4 row-gap-8 md:grid-cols-4">
         <div className="text-center md:border-r">
           <h6 className="text-2xl font-bold lg:text-5xl xl:text-6xl">
-            <CountUp enableScrollSpy start={0} end={144} />+
+            <CountUp enableScrollSpy start={0} end={144} prefix="+"/>
           </h6>
           <p className="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
             Project
@@ -14,7 +14,7 @@ export default function State() {
         </div>
         <div className="text-center md:border-r">
           <h6 className="text-2xl font-bold lg:text-5xl xl:text-6xl">
-            <CountUp enableScrollSpy start={0} end={122} />+
+            <CountUp enableScrollSpy start={0} end={122} prefix="+"/>
           </h6>
           <p className="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
             Expertise
@@ -22,7 +22,7 @@ export default function State() {
         </div>
         <div className="text-center md:border-r">
           <h6 className="text-2xl font-bold lg:text-5xl xl:text-6xl">
-            <CountUp enableScrollSpy start={0} end={488} />+
+            <CountUp enableScrollSpy start={0} end={488} prefix="+"/>
           </h6>
           <p className="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
             Clients
@@ -30,7 +30,7 @@ export default function State() {
         </div>
         <div className="text-center">
           <h6 className="text-2xl font-bold lg:text-5xl xl:text-6xl">
-            <CountUp enableScrollSpy start={0} end={600} />+
+            <CountUp enableScrollSpy start={0} end={600} prefix="+"/>
           </h6>
           <p className="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
           engineers

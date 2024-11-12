@@ -22,6 +22,14 @@ export default function App() {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
+  const scrollToContact = (e: { preventDefault: () => void }) => {
+    e.preventDefault();
+    const section = document.getElementById("contact-section");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const controlNavbar = () => {
     if (typeof window !== "undefined") {
       if (window.scrollY > lastScrollY) {
@@ -85,7 +93,9 @@ export default function App() {
 
         <NavbarContent className="hidden sm:flex" justify="start">
           <NavbarBrand className="py-3">
-            <Logo />
+            <Link href="/">
+              <Logo />
+            </Link>
           </NavbarBrand>
         </NavbarContent>
 
@@ -96,7 +106,7 @@ export default function App() {
           <NavbarItem>
             <Link
               className="hover:text-indigo-900 text-lg text-gray-900 transition-all duration-300 border-b-2 border-transparent hover:border-indigo-700"
-              href="#"
+              href="/"
             >
               Home
             </Link>
@@ -104,7 +114,7 @@ export default function App() {
           <NavbarItem>
             <Link
               className="hover:text-indigo-900 text-lg text-gray-900 transition-all duration-300 border-b-2 border-transparent hover:border-indigo-700"
-              href="#"
+              href="/Projects"
             >
               Projects
             </Link>
@@ -112,7 +122,7 @@ export default function App() {
           <NavbarItem>
             <Link
               className="hover:text-indigo-900 text-lg text-gray-900 transition-all duration-300 border-b-2 border-transparent hover:border-indigo-700"
-              href="#"
+              href="/AboutUS"
             >
               About Us
             </Link>
@@ -120,7 +130,8 @@ export default function App() {
           <NavbarItem>
             <Link
               className="hover:text-indigo-900 text-lg text-gray-900 transition-all duration-300 border-b-2 border-transparent hover:border-indigo-700"
-              href="#"
+              href="#contact-section"
+              onClick={scrollToContact}
             >
               Contact Us
             </Link>
@@ -171,7 +182,7 @@ export default function App() {
             <Link
               className="hover:text-indigo-300 transition-all duration-300 border-b-2 border-transparent text-gray-200 "
               color="foreground"
-              href="#"
+              href="/"
             >
               Home
             </Link>
@@ -180,7 +191,7 @@ export default function App() {
             <Link
               className="hover:text-indigo-300 transition-all text-gray-200 duration-300 border-b-2 border-transparent "
               color="foreground"
-              href="#"
+              href="/Projects"
             >
               Projects
             </Link>
@@ -189,7 +200,7 @@ export default function App() {
             <Link
               className="hover:text-indigo-300 transition-all text-gray-200 duration-300 border-b-2 border-transparent "
               color="foreground"
-              href="#"
+              href="/AboutUS"
             >
               About Us
             </Link>
@@ -198,7 +209,7 @@ export default function App() {
             <Link
               className="hover:text-indigo-300 transition-all text-gray-200 duration-300 border-b-2 border-transparent "
               color="foreground"
-              href="#"
+              href="#contact-section"
             >
               Contact Us
             </Link>
