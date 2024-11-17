@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Section1() {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -25,7 +27,7 @@ export default function Section1() {
             <div className="bg-white border-l-4 shadow-sm border-indigo-700">
               <div className="h-full p-5 border border-l-0 rounded-r">
                 <h6 className="mb-2 font-semibold leading-5">
-                  I'll be sure to note that in my log
+                  I&apos;ll be sure to note that in my log
                 </h6>
                 <p className="text-sm text-gray-900">
                   Lookout flogging bilge rat main sheet bilge water nipper fluke
@@ -47,10 +49,12 @@ export default function Section1() {
           </div>
         </div>
         <div>
-          <img
+          <Image
             className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
             src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
             alt=""
+            width={500}
+            height={500}
           />
         </div>
       </div>

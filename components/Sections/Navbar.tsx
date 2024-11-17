@@ -10,7 +10,6 @@ import {
   NavbarItem,
   Link,
 } from "@nextui-org/react";
-import Image from "next/image";
 import { IoLanguageSharp } from "react-icons/io5";
 import Logo from "../ui/Logo";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa6";
