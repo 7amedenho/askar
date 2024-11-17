@@ -66,7 +66,7 @@ export default function Home() {
       <Section variants={videoVariants}>
         <Video />
       </Section>
-      <Section variants={section2Variants}>
+      <Section>
         <Section3 />
       </Section>
       <Section variants={featureVariants}>
