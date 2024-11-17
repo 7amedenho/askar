@@ -47,7 +47,7 @@ const Section: React.FC<{
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-full">
       <Section variants={heroVariants}>
         <Hero />
       </Section>
@@ -60,10 +60,10 @@ export default function Home() {
       <Section variants={section1Variants}>
         <Section2 />
       </Section>
-      <Section variants={featureVariants}>
+      <Section>
         <Feature />
       </Section>
-      <Section variants={videoVariants}>
+      <Section>
         <Video />
       </Section>
       <Section>
