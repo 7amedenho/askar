@@ -69,7 +69,7 @@ export default function Home() {
       <Section>
         <Section3 />
       </Section>
-      <Section variants={featureVariants}>
+      <Section>
         <Content />
       </Section>
       <Section variants={heroVariants}>
