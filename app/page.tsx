@@ -14,8 +14,6 @@ import {
   heroVariants,
   section1Variants,
   section2Variants,
-  featureVariants,
-  videoVariants,
 } from "@/variants"; // Import from separate file
 
 const transition = { duration: 0.8, ease: "easeOut" };
