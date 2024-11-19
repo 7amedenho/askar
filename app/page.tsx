@@ -15,8 +15,6 @@ import {
   heroVariants,
   section1Variants,
   section2Variants,
-  featureVariants,
-  videoVariants,
 } from "@/variants"; // Import from separate file
 
 const transition = { duration: 0.8, ease: "easeOut" };
@@ -48,7 +46,7 @@ const Section: React.FC<{
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div>
       <Section variants={heroVariants}>
         <Hero />
       </Section>
