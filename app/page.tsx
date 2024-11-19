@@ -8,6 +8,7 @@ import Hero from "@/components/Sections/Hero";
 import Section1 from "@/components/Sections/Section1";
 import Section2 from "@/components/Sections/Section2";
 import Section3 from "@/components/Sections/Section3";
+import Section4 from "@/components/Sections/Section4";
 import State from "@/components/Sections/State";
 import Video from "@/components/Sections/Video";
 import {
@@ -53,6 +54,9 @@ export default function Home() {
       </Section>
       <Section variants={section1Variants}>
         <Section1 />
+      </Section>
+      <Section variants={section2Variants}>
+        <Section4 />
       </Section>
       <Section variants={section2Variants}>
         <State />
