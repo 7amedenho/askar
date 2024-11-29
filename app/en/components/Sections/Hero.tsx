@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useCallback } from "react";
 import Autoplay from "embla-carousel-autoplay";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai"; // استبدال الأيقونات
-import { Button } from "../ui/button";
+import { Button } from "../../../../components/ui/button";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Typewriter from "typewriter-effect";
 import CountUp from "react-countup";
@@ -104,32 +104,6 @@ export default function Hero() {
         >
           <AiOutlineRight className="text-white text-6xl hover:text-indigo-600 duration-200 max-sm:text-2xl pr-2" />
         </button>
-        <div className="absolute sm:bg-indigo-700 w-full justify-center sm:py-4 max-sm:top-3/4 left-1/2 transform -translate-x-1/2 bottom-0 flex space-x-28 max-sm:space-x-12">
-          <div className="text-center">
-            <h6 className="text-white text-2xl font-bold lg:text-5xl xl:text-6xl">
-              <CountUp enableScrollSpy start={0} end={144} prefix="+" />
-            </h6>
-            <p className="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
-              Project
-            </p>
-          </div>
-          <div className="text-center">
-            <h6 className="text-white text-2xl font-bold lg:text-5xl xl:text-6xl">
-              <CountUp enableScrollSpy start={0} end={144} prefix="+" />
-            </h6>
-            <p className="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
-              Project
-            </p>
-          </div>
-          <div className="text-center">
-            <h6 className="text-white text-2xl font-bold lg:text-5xl xl:text-6xl">
-              <CountUp enableScrollSpy start={0} end={144} prefix="+" />
-            </h6>
-            <p className="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
-              Project
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );

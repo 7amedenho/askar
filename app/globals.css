@@ -77,10 +77,17 @@ body {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-slate-700 text-foreground;
   }
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+html {
+  color-scheme: light;
+}
+html.dark {
+  color-scheme: dark;
 }
