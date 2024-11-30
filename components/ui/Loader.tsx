@@ -8,7 +8,7 @@ interface LoaderProps {
   Logo: string; // اجعلها من نوع string لأنه المسار إلى الصورة
 }
 
-const Loader: React.FC<LoaderProps> = ({ Logo }) => {
+const Loader: React.FC<LoaderProps> = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {

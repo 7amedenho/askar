@@ -25,17 +25,7 @@ export default function App() {
   const [lastScrollY, setLastScrollY] = useState(0);
   const { theme } = useTheme();
 
-  const controlNavbar = () => {
-    if (typeof window !== "undefined") {
-      if (window.scrollY > lastScrollY) {
-        setIsVisible(false);
-      } else {
-        setIsVisible(true);
-      }
-      setLastScrollY(window.scrollY);
-    }
-  };
-
+  
   return (
     <div>
       {/* شريط المعلومات العلوي */}
