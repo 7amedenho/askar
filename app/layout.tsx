@@ -38,7 +38,6 @@ export default function RootLayout({
           "bg-background text-foreground font-sans"
         }
       >
-        <Navbar />
         <Providers>{children}</Providers>
       </body>
     </html>

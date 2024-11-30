@@ -91,3 +91,156 @@ html {
 html.dark {
   color-scheme: dark;
 }
+/* From Uiverse.io by ZacharyCrespin */ 
+@keyframes square-animation {
+  0% {
+   left: 0;
+   top: 0;
+  }
+ 
+  10.5% {
+   left: 0;
+   top: 0;
+  }
+ 
+  12.5% {
+   left: 32px;
+   top: 0;
+  }
+ 
+  23% {
+   left: 32px;
+   top: 0;
+  }
+ 
+  25% {
+   left: 64px;
+   top: 0;
+  }
+ 
+  35.5% {
+   left: 64px;
+   top: 0;
+  }
+ 
+  37.5% {
+   left: 64px;
+   top: 32px;
+  }
+ 
+  48% {
+   left: 64px;
+   top: 32px;
+  }
+ 
+  50% {
+   left: 32px;
+   top: 32px;
+  }
+ 
+  60.5% {
+   left: 32px;
+   top: 32px;
+  }
+ 
+  62.5% {
+   left: 32px;
+   top: 64px;
+  }
+ 
+  73% {
+   left: 32px;
+   top: 64px;
+  }
+ 
+  75% {
+   left: 0;
+   top: 64px;
+  }
+ 
+  85.5% {
+   left: 0;
+   top: 64px;
+  }
+ 
+  87.5% {
+   left: 0;
+   top: 32px;
+  }
+ 
+  98% {
+   left: 0;
+   top: 32px;
+  }
+ 
+  100% {
+   left: 0;
+   top: 0;
+  }
+ }
+ 
+/* From Uiverse.io by asgardOP */ 
+.loader {
+  width: 100px;
+  height: 3px;
+  background-color: rgb(15, 15, 15);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.child {
+  width: 60px;
+  height: 3px;
+  background-color: rgb(107, 27, 255);
+  border-radius: 20px;
+  z-index: 0;
+  margin-left: -60px;
+  animation: go 1s 0s infinite;
+}
+
+@keyframes go {
+  from {
+    margin-left: -100px;
+    width: 80px;
+  }
+  to {
+    width: 30px;
+    margin-left: 110px;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+.text {
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text::before {
+  content: "Loading";
+  color: white;
+  animation: text 1s 0s infinite;
+}
+
+@keyframes text {
+  0% {
+    content: "Loading";
+  }
+
+  30% {
+    content: "Loading.";
+  }
+
+  60% {
+    content: "Loading..";
+  }
+
+  100% {
+    content: "Loading...";
+  }
+}

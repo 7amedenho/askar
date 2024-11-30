@@ -20,7 +20,7 @@ export default function HeroSection() {
         <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 relative z-10">
           <div className="mx-auto text-center max-w-xl">
             <h1
-              className="relative font-semibold max-w-max mx-auto pb-2 font-display text-3xl sm:text-4xl md:text-5xl text-white after:absolute
+              className="relative font-semibold max-w-max mx-auto pb-2 font-display text-2xl sm:text-4xl md:text-5xl text-white after:absolute
                           after:bottom-0 after:left-0 after:h-0.5 after:rounded-lg after:bg-gray-100 dark:after:bg-gray-100 after:w-4"
             >
               Askar Group for Contracting
@@ -28,19 +28,20 @@ export default function HeroSection() {
           </div>
           <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-x-6 lg:gap-x-14 gap-y-8 md:items-end">
             <div className="space-y-4 md:space-y-6 md:col-span-2 lg:col-span-1 w-full max-w-3xl lg:max-w-none mx-auto lg:mx-0 text-center lg:text-left">
-              <h1 className="font-display font-semibold text-2xl md:text-3xl text-white">
+              <h1 className="font-display font-semibold text-lg md:text-3xl text-white">
                 About Askar General Contracting Company
               </h1>
               <div className="text-white space-y-3 mx-auto max-w-2xl lg:max-w-none">
-                <p>
+                <h2>
                   Established in 2004, Askar General Contracting specializes in
                   mechanical and civil works, combining expertise and innovation
                   to deliver top-quality services that meet clients' needs.
-                </p>
-                <p>
+                </h2>
+
+                <h2>
                   Our Vision: To be a leading company in general contracting and
                   mechanical works, with a focus on innovation and quality.
-                </p>
+                </h2>
               </div>
             </div>
             <div className="flex justify-center">

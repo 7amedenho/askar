@@ -30,18 +30,17 @@ export default function Hero() {
           </h1>
         </div>
 
-        <h1 className="text-2xl sm:text-6xl font-bold">
-          Askar for General Contracting
+        <h1 className="text-3xl sm:text-6xl font-bold leading-tight">
+          Askar Group for
         </h1>
-        <h1 className="text-md text-indigo-400 sm:text-xl font-bold m-2">
+        <h2 className="text-lg sm:text-3xl font-bold mt-4 sm:mt-6 text-gray-100">
           <Typewriter
             options={{
               strings: [
-                "Building Your Vision with Excellence",
-                "Crafting Strong Foundations for Tomorrow",
-                "Innovative Solutions for Modern Construction",
-                "Precision and Expertise in Every Project",
-                "Building a Legacy, One Project at a Time",
+                "General Contracting and Large-Scale Projects",
+                "Mechanical Works and Industrial Installations",
+                "Civil Works and Infrastructure Development",
+                "Metal Fabrication and Customized Production Solutions",
               ],
               autoStart: true,
               loop: true,
@@ -49,14 +48,14 @@ export default function Hero() {
               deleteSpeed: 50,
             }}
           />
-        </h1>
+        </h2>
 
         <Button
           variant="ghost"
-          className="mt-4 hover:border-indigo-600 hover:text-indigo-600 border-b-2 border-transparent pointer-events-auto"
+          className="mt-4 hover:border-indigo-600 hover:text-indigo-600 pointer-events-auto"
         >
           <AiOutlineArrowLeft />
-          Get Started
+          Contact Us
         </Button>
       </div>
       <div className="backdrop-blur-sm">

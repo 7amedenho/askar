@@ -9,6 +9,7 @@ import TeamTalk from "./components/Sections/TeamTalk";
 import Loader from "@/components/ui/Loader";
 import LogoDM from "@/components/ui/LogoDM";
 import Image from "next/image";
+import ManegarTalk from "./components/Sections/ManegarTalk";
 
 export default function Home() {
   return (
@@ -41,6 +42,7 @@ export default function Home() {
       <State />
       <Blog />
       <TeamTalk />
+      <ManegarTalk />
       <Contact />
     </div>
   );

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 
 const Blog = () => {
@@ -56,12 +57,12 @@ const Blog = () => {
           ))}
         </div>
         <div className="flex justify-center">
-          <a href="#" className="px-5 py-2.5 border border-gray-100 dark:border-slate-700 text-indigo-600 dark:text-slate-400 flex items-center gap-x-3 rounded-lg">
+          <Link href="/en/projects" className="px-5 py-2.5 border border-gray-100 dark:border-slate-700 text-indigo-600 dark:text-slate-400 flex items-center gap-x-3 rounded-lg">
             See More
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-4 h-4">
               <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
             </svg>                      
-          </a>
+          </Link>
         </div>
       </div>
     </section>

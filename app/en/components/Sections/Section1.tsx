@@ -9,7 +9,7 @@ const Section1 = () => {
       {/* Background with Gradient */}
       <div className="absolute inset-0 -z-10">
         <div
-          className="w-full h-full bg-gradient-to-tr from-indigo-300 via-purple-200 to-pink-300 dark:from-indigo-800 dark:via-purple-800 dark:to-pink-500 opacity-40"
+          className="w-full h-full opacity-40"
           style={{
             backgroundImage: "url('/images/IMG-20241129-WA0040.jpg')",
             backgroundSize: "cover",
@@ -20,7 +20,7 @@ const Section1 = () => {
       </div>
 
       {/* Content Section */}
-      <section className="max-w-7xl rounded-3xl mx-auto bg-gradient-to-tr from-indigo-300 via-purple-200 to-pink-300 dark:from-indigo-800 dark:via-purple-800 dark:to-pink-800 p-10 px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col md:flex-row gap-10 xl:gap-14">
+      <section className="max-w-7xl rounded-xl mx-auto bg-gradient-to-tr from-indigo-300 via-purple-200 to-pink-300 dark:from-indigo-900 dark:via-purple-900 dark:to-pink-900 p-10 px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col md:flex-row gap-10 xl:gap-14">
         {/* Text Content */}
         <div className="flex flex-1 flex-col gap-5">
           <h2 className="text-4xl font-bold text-gray-900 dark:text-gray-100">
@@ -37,10 +37,7 @@ const Section1 = () => {
           {/* Services with Gradient Borders */}
           <div className="space-y-3">
             {/* Mechanical Works */}
-            <a
-              href="#"
-              className="block p-5 hover:-translate-y-1 duration-300 rounded-md bg-white dark:bg-slate-800 shadow-lg border border-transparent hover:border-transparent hover:shadow-md transition-all ease-in-out border-gradient-to-r from-indigo-500 to-purple-500 dark:from-indigo-700 dark:to-purple-700"
-            >
+            <div className="block p-5 hover:-translate-y-1 duration-300 rounded-md bg-white dark:bg-slate-800 shadow-lg border border-transparent hover:border-transparent hover:shadow-md transition-all ease-in-out border-gradient-to-r from-indigo-500 to-purple-500 dark:from-indigo-700 dark:to-purple-700">
               <div className="flex items-center gap-4">
                 <div className="p-3 rounded bg-gradient-to-br from-indigo-500 to-purple-500">
                   <IoSettingsSharp className="w-7 h-7 text-white" />
@@ -55,13 +52,10 @@ const Section1 = () => {
                   </p>
                 </div>
               </div>
-            </a>
+            </div>
 
             {/* Civil Works */}
-            <a
-              href="#"
-              className="block p-5 hover:-translate-y-1 duration-300 rounded-md bg-white dark:bg-slate-800 shadow-lg border border-transparent hover:border-transparent hover:shadow-md transition-all ease-in-out border-gradient-to-r from-purple-500 to-pink-500 dark:from-purple-700 dark:to-pink-700"
-            >
+            <div className="block p-5 hover:-translate-y-1 duration-300 rounded-md bg-white dark:bg-slate-800 shadow-lg border border-transparent hover:border-transparent hover:shadow-md transition-all ease-in-out border-gradient-to-r from-purple-500 to-pink-500 dark:from-purple-700 dark:to-pink-700">
               <div className="flex items-center gap-4">
                 <div className="p-3 rounded bg-gradient-to-br from-purple-500 to-pink-500">
                   <FaTools className="w-7 h-7 text-white" />
@@ -76,13 +70,10 @@ const Section1 = () => {
                   </p>
                 </div>
               </div>
-            </a>
+            </div>
 
             {/* Metal Forming & Fabrication */}
-            <a
-              href="#"
-              className="block p-5 hover:-translate-y-1 duration-300 rounded-md bg-white dark:bg-slate-800 shadow-lg border border-transparent hover:border-transparent hover:shadow-md transition-all ease-in-out border-gradient-to-r from-pink-500 to-indigo-500 dark:from-pink-700 dark:to-indigo-700"
-            >
+            <div className="block p-5 hover:-translate-y-1 duration-300 rounded-md bg-white dark:bg-slate-800 shadow-lg border border-transparent hover:border-transparent hover:shadow-md transition-all ease-in-out border-gradient-to-r from-pink-500 to-indigo-500 dark:from-pink-700 dark:to-indigo-700">
               <div className="flex items-center gap-4">
                 <div className="p-3 rounded bg-gradient-to-br from-pink-500 to-indigo-500">
                   <GiFactory className="w-7 h-7 text-white" />
@@ -98,7 +89,7 @@ const Section1 = () => {
                   </p>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
 

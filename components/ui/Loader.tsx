@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import Image from "next/image"; // تأكد من استيراد Image من next/image
+import LogoDM from "./LogoDM";
 
 interface LoaderProps {
   Logo: string; // اجعلها من نوع string لأنه المسار إلى الصورة
@@ -25,25 +26,22 @@ const Loader: React.FC<LoaderProps> = ({ Logo }) => {
       animate={{ opacity: 0 }}
       transition={{ duration: 1, delay: 3 }}
     >
-      {/* دائرة البداية والنهاية */}
-      <motion.div
-        className="flex items-center justify-center rounded-full border-1 border-indigo-500"
-        initial={{ scale: 0 }}
-        animate={{ scale: 1.5 }}
-        exit={{ scale: 0 }}
-        transition={{ duration: 2 }}
-        style={{ width: "100px", height: "100px" }}
-      >
-        {/* الشعار بحجم صغير */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1 }}
-        >
-          {/* استخدام مكون Image لعرض الشعار */}
-          <Image src={Logo} alt="Logo" width={150} height={150} />
-        </motion.div>
-      </motion.div>
+      <div className="flex flex-col items-center">
+        <div className="flex flex-col  items-center">
+          <LogoDM />
+        </div>
+        <ul className="pt-10">
+          <li>
+            <div className="loader">
+              <div className="child"></div>
+            </div>
+          </li>
+
+          <li>
+            <div className="text"></div>
+          </li>
+        </ul>
+      </div>
     </motion.div>
   );
 };
