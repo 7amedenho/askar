@@ -25,7 +25,7 @@ export default function App() {
 
   const { theme, systemTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
-  const [mounted, setMounted] = useState(false);
+  const [, setMounted] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
 
   // Ensure theme is ready
