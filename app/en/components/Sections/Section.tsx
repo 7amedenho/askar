@@ -6,7 +6,7 @@ export default function HeroSection() {
       <section
         className="relative py-20 bg-slate-800"
         style={{
-          backgroundImage: "url(&apos;/Images/IMG-20241129-WA0038.jpg&apos;)",
+          backgroundImage: "url('/Images/IMG-20241129-WA0038.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center center",
           backgroundRepeat: "no-repeat",

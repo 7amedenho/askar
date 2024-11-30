@@ -97,7 +97,7 @@ const Section1 = () => {
         <div className="w-full md:h-auto object-cover flex md:items-end justify-center md:w-1/2 xl:w-[45%] relative">
           <div className="absolute inset-x-0 bottom-0 h-2/4 bg-gradient-to-tr from-gray-100 to-gray-300 dark:from-slate-900 dark:to-slate-700 rounded-3xl"></div>
           <Image
-            src="/images/person.png"
+            src="/person.png"
             width="1001"
             height="1001"
             alt="Human"
