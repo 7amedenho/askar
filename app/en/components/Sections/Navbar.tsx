@@ -1,5 +1,6 @@
 "use client";
-import React, { useState } from "react";
+
+import React, { useState, useEffect } from "react";
 import {
   Navbar,
   NavbarBrand,
@@ -11,8 +12,8 @@ import {
   Link,
 } from "@nextui-org/react";
 import { IoLanguageSharp } from "react-icons/io5";
-import Logo from "../../../../components/ui/Logo";
-import LogoDM from "../../../../components/ui/LogoDM";
+import Logo from "@/components/ui/Logo";
+import LogoDM from "@/components/ui/LogoDM";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { SiWhatsapp } from "react-icons/si";
@@ -21,20 +22,40 @@ import { useTheme } from "next-themes";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isVisible] = useState(true);
 
-  const { theme } = useTheme();
+  const { theme, systemTheme } = useTheme();
+  const currentTheme = theme === "system" ? systemTheme : theme;
+  const [mounted, setMounted] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
 
-  
+  // Ensure theme is ready
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+  useEffect(() => {
+    let lastScrollY = window.scrollY;
+
+    const handleScroll = () => {
+      if (window.scrollY > lastScrollY) {
+        setIsVisible(false); // إخفاء عند التمرير للأسفل
+      } else {
+        setIsVisible(true); // إظهار عند التمرير للأعلى
+      }
+      lastScrollY = window.scrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
     <div>
       {/* شريط المعلومات العلوي */}
       <div
-        className={`h-8 fixed w-full z-50 bg-indigo-700 dark:bg-gray-900 flex items-center justify-between px-4 ${
+        className={`h-8 fixed w-full z-50 bg-indigo-700 dark:bg-gray-900 flex align-middle items-center justify-between px-4 ${
           isVisible ? "translate-y-0" : "-translate-y-full"
         } transition-transform duration-300`}
       >
-        <nav className="flex text-xl text-white">
+        <nav className="flex text-xl text-white items-center justify-center">
           <ul className="hover:text-indigo-300 duration-300 mx-1">
             <Link href="#">
               <FaFacebook className="text-white" />
@@ -68,12 +89,17 @@ export default function App() {
       >
         {/* شعار الشركة */}
         <NavbarContent className="sm:hidden pr-3" justify="center">
-          <NavbarBrand>{theme === "dark" ? <LogoDM /> : <Logo />}</NavbarBrand>
+          <NavbarBrand>
+            {currentTheme === "dark" ? <LogoDM /> : <Logo />}
+          </NavbarBrand>
         </NavbarContent>
 
         <NavbarContent className="hidden sm:flex" justify="start">
           <NavbarBrand>
-            <Link href="/">{theme === "dark" ? <LogoDM /> : <Logo />}</Link>
+            <Link href="/">
+              {" "}
+              {currentTheme === "dark" ? <LogoDM /> : <Logo />}
+            </Link>
           </NavbarBrand>
         </NavbarContent>
 

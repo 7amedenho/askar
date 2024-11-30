@@ -244,3 +244,12 @@ ul {
     content: "Loading...";
   }
 }
+
+::-moz-selection {
+  color: #ffffff;
+  background: #2508c9;
+}
+::selection {
+  color: #ffffff;
+  background: #2508c9;
+}

@@ -11,7 +11,7 @@ const Section1 = () => {
         <div
           className="w-full h-full opacity-40"
           style={{
-            backgroundImage: "url('/images/IMG-20241129-WA0040.jpg')",
+            backgroundImage: "url('https://res.cloudinary.com/dvhcaimzt/image/upload/v1732973071/IMG-20241129-WA0034_vff8lk.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundBlendMode: "overlay",
@@ -97,7 +97,7 @@ const Section1 = () => {
         <div className="w-full md:h-auto object-cover flex md:items-end justify-center md:w-1/2 xl:w-[45%] relative">
           <div className="absolute inset-x-0 bottom-0 h-2/4 bg-gradient-to-tr from-gray-100 to-gray-300 dark:from-slate-900 dark:to-slate-700 rounded-3xl"></div>
           <Image
-            src="/person.png"
+            src="https://res.cloudinary.com/dvhcaimzt/image/upload/v1732971157/oocqdgtbi2wkosg1te77.png"
             width={1000}
             height={1000}
             alt={"Human"}

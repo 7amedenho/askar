@@ -41,7 +41,7 @@ const ManegarTalk = () => {
           {/* الصورة */}
           <div className="flex flex-1 lg:w-1/2 relative max-w-3xl mx-auto lg:max-w-none">
             <Image
-              src="/Maneger.jpg"
+              src="https://res.cloudinary.com/dvhcaimzt/image/upload/v1732971159/inodonqoehyqa41ocxs4.jpg"
               alt="happy team"
               width={1850}
               height={1200}
