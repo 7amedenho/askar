@@ -21,8 +21,8 @@ import { useTheme } from "next-themes";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isVisible, setIsVisible] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
+  const [isVisible] = useState(true);
+
   const { theme } = useTheme();
 
   
