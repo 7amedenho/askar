@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
@@ -26,10 +27,11 @@ const Blog = () => {
             <div
               key={index}
               className="bg-white dark:bg-slate-800 shadow-lg shadow-gray-200/50 dark:shadow-transparent border border-gray-200/50 dark:border-slate-700/50 rounded-lg">
-              <img 
+              <Image
                 src="/images/working-on-housing-project.jpg" 
                 alt="illustration" 
                 width="1300"
+                height="1000"
                 className="w-full aspect-[5/3] object-cover bg-gray-100 dark:bg-slate-700 rounded-t-lg"
               />
               <div className="relative p-4 pt-10">

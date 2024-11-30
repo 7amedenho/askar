@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="text-gray-600 dark:text-gray-200 body-font relative bg-gray-100 dark:bg-gray-900"style={{ backgroundImage: "url('/images/IMG-20241129-WA0049.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundAttachment: "fixed", backgroundClip: "border-box", backgroundBlendMode: "overlay"}}>
+    <section className="text-gray-600 dark:text-gray-200 body-font relative bg-gray-100 dark:bg-gray-900"style={{ backgroundImage: "url(&apos;/images/IMG-20241129-WA0049.jpg&apos;)", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundAttachment: "fixed", backgroundClip: "border-box", backgroundBlendMode: "overlay"}}>
       <div></div>
       <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
         {/* Map Section */}
@@ -44,7 +44,7 @@ const Contact = () => {
           </h2>
           <p className="leading-relaxed mb-5 text-gray-600 dark:text-gray-400">
             Have a question or want to work together? Fill the form below, and
-            we'll get back to you soon!
+            we&apos;ll get back to you soon!
           </p>
           {/* Name Input */}
           <div className="relative mb-4">

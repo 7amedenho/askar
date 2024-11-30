@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import {
   Navbar,
   NavbarBrand,
@@ -35,13 +35,6 @@ export default function App() {
       setLastScrollY(window.scrollY);
     }
   };
-
-  useEffect(() => {
-    window.addEventListener("scroll", controlNavbar);
-    return () => {
-      window.removeEventListener("scroll", controlNavbar);
-    };
-  }, [lastScrollY]);
 
   return (
     <div>

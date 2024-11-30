@@ -6,7 +6,7 @@ export default function HeroSection() {
       <section
         className="relative py-20 bg-slate-800"
         style={{
-          backgroundImage: "url('/Images/IMG-20241129-WA0038.jpg')",
+          backgroundImage: "url(&apos;/Images/IMG-20241129-WA0038.jpg&apos;)",
           backgroundSize: "cover",
           backgroundPosition: "center center",
           backgroundRepeat: "no-repeat",
@@ -35,7 +35,7 @@ export default function HeroSection() {
                 <h2>
                   Established in 2004, Askar General Contracting specializes in
                   mechanical and civil works, combining expertise and innovation
-                  to deliver top-quality services that meet clients' needs.
+                  to deliver top-quality services that meet clients&apos; needs.
                 </h2>
 
                 <h2>

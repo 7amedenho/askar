@@ -8,7 +8,6 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai"; // استبدا�
 import { Button } from "../../../../components/ui/button";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Typewriter from "typewriter-effect";
-import CountUp from "react-countup";
 
 export default function Hero() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()]);

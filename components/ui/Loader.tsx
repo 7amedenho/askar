@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import Image from "next/image"; // تأكد من استيراد Image من next/image
 import LogoDM from "./LogoDM";
 
 interface LoaderProps {

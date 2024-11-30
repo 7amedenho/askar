@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "@/app/en/components/Sections/Navbar";
 import { Providers } from "./providers";
-import Footer from "@/app/en/components/Sections/Footer";
 
 const geistSans = localFont({
   src: "./fonts/Cairo-Bold.ttf",

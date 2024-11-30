@@ -7,14 +7,13 @@ import Contact from "./components/Sections/Contact";
 import Blog from "./components/Sections/Blog";
 import TeamTalk from "./components/Sections/TeamTalk";
 import Loader from "@/components/ui/Loader";
-import LogoDM from "@/components/ui/LogoDM";
-import Image from "next/image";
+
 import ManegarTalk from "./components/Sections/ManegarTalk";
 
 export default function Home() {
   return (
     <div>
-      <Loader Logo={'/logoDM.png'}/>
+      <Loader Logo={"/logoDM.png"} />
       <Hero />
       <div className="bg-indigo-600 dark:bg-slate-800">
         <div className="max-w-screen-xl mx-auto px-4 py-3 items-center gap-x-4 justify-center text-center text-white sm:flex md:px-8">
