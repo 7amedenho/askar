@@ -27,8 +27,8 @@ export default function Footer() {
 
       <div className="container px-6 py-12 mx-auto relative z-10">
         {/* Logo and company info */}
-        <div className="flex flex-col items-center text-center">
-          <div className="flex items-center space-x-4 p-4 max-sm:bg-transparent rounded-lg w-full max-w-sm mx-auto bg-gray-800/50 shadow-lg">
+        <div className="flex flex-col items-center text-center justify-center">
+          <div className="flex items-center space-x-4 p-4 bg-transparent rounded-lg w-full max-w-sm mx-auto ">
             <div className="flex-shrink-0">
               <Image src="/logoDM.png" width={100} height={100} alt="logo" />
             </div>

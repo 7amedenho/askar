@@ -25,7 +25,7 @@ export default function App() {
 
   const { theme, systemTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
-  const [, setMounted] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
 
   // Ensure theme is ready
@@ -83,7 +83,7 @@ export default function App() {
         isBordered
         isMenuOpen={isMenuOpen}
         onMenuOpenChange={setIsMenuOpen}
-        className={`bg-white dark:bg-slate-800 py-3 px-1 border-b-2 border-indigo-700 text-gray-900 dark:text-gray-200 w-full z-40 brightness-125 transition-transform duration-300 ${
+        className={`bg-white dark:bg-slate-800 py-3 px-1 border-b-2 border-indigo-700 text-gray-900 dark:text-gray-200 fixed w-full z-40 brightness-125 transition-transform duration-300 ${
           isVisible ? "translate-y-8" : "-translate-y-full"
         }`}
       >

@@ -9,6 +9,7 @@ import TeamTalk from "./components/Sections/TeamTalk";
 import Loader from "@/components/ui/Loader";
 
 import ManegarTalk from "./components/Sections/ManegarTalk";
+import Section2 from "./components/Sections/Section2";
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
       <CTA />
       <State />
       <Blog />
+      <Section2 />
       <TeamTalk />
       <ManegarTalk />
       <Contact />
