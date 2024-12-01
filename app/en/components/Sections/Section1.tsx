@@ -98,8 +98,8 @@ const Section1 = () => {
           <div className="absolute inset-x-0 bottom-0 h-2/4 bg-gradient-to-tr from-gray-100 to-gray-300 dark:from-slate-900 dark:to-slate-700 rounded-3xl"></div>
           <Image
             src="https://res.cloudinary.com/dvhcaimzt/image/upload/v1732971157/oocqdgtbi2wkosg1te77.png"
-            width={1000}
-            height={1000}
+            width={700}
+            height={700}
             alt={"Human"}
             className="w-full h-auto lg:w-[90%] relative"
           />
