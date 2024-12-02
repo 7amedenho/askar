@@ -170,7 +170,7 @@ export default function App() {
           <NavbarItem>
             <Link
               href="#"
-              className="border border-indigo-500 hover:bg-indigo-500 text-white py-2 px-3 rounded-full transition-all duration-300 max-sm:hidden"
+              className="border text-indigo-800 border-indigo-800 hover:text-white hover:bg-indigo-700 dark:text-white py-2 px-3 rounded-2xl transition-all duration-300 max-sm:hidden"
             >
               <div className="flex items-center">
                 <SiWhatsapp className="text-lg" />
