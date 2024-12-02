@@ -22,7 +22,6 @@ import { MdMarkEmailUnread } from "react-icons/md";
 import { SiWhatsapp } from "react-icons/si";
 import { ThemeSwitcher } from "../../../../components/ui/ThemeSwitcher";
 import { useTheme } from "next-themes";
-import { useRouter } from "next/navigation";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
