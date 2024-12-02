@@ -14,10 +14,7 @@ import {
 import { IoLanguageSharp } from "react-icons/io5";
 import Logo from "@/components/ui/Logo";
 import LogoDM from "@/components/ui/LogoDM";
-import {
-  FaFacebook,
-  FaLocationDot,
-} from "react-icons/fa6";
+import { FaFacebook, FaLocationDot } from "react-icons/fa6";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { SiWhatsapp } from "react-icons/si";
 import { ThemeSwitcher } from "../../../../components/ui/ThemeSwitcher";
@@ -58,10 +55,9 @@ export default function App() {
         className={`h-8 fixed w-full z-50 bg-indigo-700 dark:bg-gray-900 flex items-center justify-between px-4 ${
           isVisible ? "translate-y-0" : "-translate-y-full"
         } transition-transform duration-300`}
+        dir="ltr"
       >
         <nav className="flex items-center text-white space-x-1 text-lg">
-         
-   
           <Link href="#" className="hover:text-indigo-300 duration-300">
             <FaFacebook className="text-white" />
           </Link>
@@ -76,10 +72,10 @@ export default function App() {
         <div className="flex items-center text-gray-200">
           <IoLanguageSharp className="text-xl" />
           <Link
-            href="/ar"
-            className="hover:text-indigo-300 transition-all text-white px-2 duration-300"
+            href="/en"
+            className="hover:text-indigo-300 text-white transition-all px-2 duration-300"
           >
-            العربية
+            English
           </Link>
         </div>
       </div>
@@ -116,56 +112,40 @@ export default function App() {
         >
           <NavbarItem>
             <Link
-              href="/en/"
+              href="/ar/"
               className="hover:text-indigo-700 dark:hover:text-indigo-400 text-lg transition-all duration-300 border-b-2 border-transparent hover:border-indigo-700 dark:hover:border-indigo-400"
             >
-              Home
+              الصفحة الرئيسية
             </Link>
           </NavbarItem>
           <NavbarItem>
             <Link
-              href="/en/Projects"
+              href="/ar/Projects"
               className="hover:text-indigo-700 dark:hover:text-indigo-400 text-lg transition-all duration-300 border-b-2 border-transparent hover:border-indigo-700 dark:hover:border-indigo-400"
             >
-              Projects
+              المشاريع
             </Link>
           </NavbarItem>
           <NavbarItem>
             <Link
-              href="/en/AboutUs"
+              href="/ar/AboutUs"
               className="hover:text-indigo-700 dark:hover:text-indigo-400 text-lg transition-all duration-300 border-b-2 border-transparent hover:border-indigo-700 dark:hover:border-indigo-400"
             >
-              About Us
+              من نحن
             </Link>
           </NavbarItem>
           <NavbarItem>
             <Link
-              href="/en/ContactUs"
+              href="/ar/ContactUs"
               className="hover:text-indigo-700 dark:hover:text-indigo-400 text-lg transition-all duration-300 border-b-2 border-transparent hover:border-indigo-700 dark:hover:border-indigo-400"
             >
-              Contact Us
+              اتصل بنا
             </Link>
           </NavbarItem>
         </NavbarContent>
 
         {/* خيارات إضافية */}
         <NavbarContent justify="end" className="flex relative gap-4">
-          {/* اختيار اللغة */}
-          {/* <NavbarItem className="hidden lg:flex">
-            <div className="flex items-center text-gray-900 dark:text-gray-200">
-              <IoLanguageSharp className="text-xl" />
-              <select
-                name="language"
-                className="bg-transparent dark:bg-slate-800 focus:outline-none ml-1"
-                value={language}
-                onChange={handleLanguageChange}
-              >
-                <option value="English">English</option>
-                <option value="Arabic">العربية</option>
-              </select>
-            </div>
-          </NavbarItem> */}
-
           {/* واتساب */}
           <NavbarItem>
             <Link
@@ -174,7 +154,7 @@ export default function App() {
             >
               <div className="flex items-center">
                 <SiWhatsapp className="text-lg" />
-                <span className="ml-2">Contact now</span>
+                <span className="mr-2">اتصل الآن</span>
               </div>
             </Link>
           </NavbarItem>
@@ -197,44 +177,44 @@ export default function App() {
         <NavbarMenu className="flex flex-col bg-indigo-700 dark:bg-gray-900 text-gray-200 gap-4 pt-20">
           <NavbarMenuItem>
             <Link
-              href="/en"
+              href="/ar"
               className="hover:text-indigo-300 text-white dark:hover:text-indigo-400 transition-all duration-300"
             >
-              Home
+              الصفحة الرئيسية
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem>
             <Link
-              href="/en/Projects"
+              href="/ar/Projects"
               className="hover:text-indigo-300 text-white dark:hover:text-indigo-400 transition-all duration-300"
             >
-              Projects
+              المشاريع
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem>
             <Link
-              href="/en/AboutUs"
+              href="/ar/AboutUs"
               className="hover:text-indigo-300 text-white dark:hover:text-indigo-400 transition-all duration-300"
             >
-              About Us
+              من نحن
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem>
             <Link
-              href="/en/ContactUs"
+              href="/ar/ContactUs"
               className="hover:text-indigo-300 text-white dark:hover:text-indigo-400 transition-all duration-300"
             >
-              Contact Us
+              اتصل بنا
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem>
             <Link
-              href="#"
+              href=""
               className="hover:bg-indigo-500 text-white py-2  rounded-full transition-all duration-300"
             >
               <div className="flex items-center">
                 <SiWhatsapp className="text-lg" />
-                <span className="ml-2">Contact now</span>
+                <span className="mr-2">اتصل الآن</span>
               </div>
             </Link>
           </NavbarMenuItem>

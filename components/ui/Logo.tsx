@@ -12,7 +12,7 @@ const Logo = () => {
       <div className="flex-shrink-0">
         <Image src="/logo.png" width={100} height={100} alt="logo" />
       </div>
-      <div className="flex flex-col text-nowrap space-y-1">
+      <div className="flex flex-col text-nowrap space-y-1 px-2">
         <h1 className="text-sm font-bold leading-tight text-gray-800 dark:text-gray-100">
           Askar Group for <br />
           General Contracting
