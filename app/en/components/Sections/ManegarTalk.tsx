@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const ManegarTalk = () => {
   return (
-    <main className="w-full min-h-screen">
+    <main className="w-full">
       <section className="relative pt-10 xl:pt-14 bg-gray-50 dark:bg-gray-900">
         {/* خلفية هندسية */}
         <div className="absolute inset-0 overflow-hidden">

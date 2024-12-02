@@ -86,7 +86,7 @@ export default function Footer() {
 
         {/* وسائل التواصل الاجتماعي وملاحظة أسفل الصفحة */}
         <div className="flex flex-col items-center sm:flex-row sm:justify-between">
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4" dir="ltr">
             <Link href="#" className="hover:text-indigo-300 duration-300">
               <FaFacebook className="text-white" />
             </Link>
@@ -98,12 +98,12 @@ export default function Footer() {
               <span className="ml-1 text-lg">askar@info.com</span>
             </div>
           </div>
-          <p className="text-sm text-gray-50 max-sm:mt-2">
+          <p className="text-sm max-sm:text-xs text-gray-50 max-sm:mt-2">
             ©حقوق الطبع والنشر 2025. جميع الحقوق محفوظة لشركة عسكر.
           </p>
         </div>
-        <p className="text-sm text-gray-50 max-sm:mt-2 text-center">
-          تم التصميم بواسطة م . حامدينهو ❤️.
+        <p className="text-sm max-sm:text-xs text-gray-50 max-sm:mt-2 text-center">
+          تم التصميم بواسطة م . حامدنهو ❤️.
         </p>
       </div>
 
