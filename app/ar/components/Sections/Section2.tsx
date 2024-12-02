@@ -59,7 +59,7 @@ export default function HeroSection() {
               </div>
               <div
                 aria-hidden="true"
-                className="flex-1 lg:w-1/2 relative hidden lg:flex justify-end pr-8"
+                className="flex-1 lg:w-1/2 relative lg:flex justify-end pr-8"
               >
                 <div className="rounded-lg absolute right-0 bottom-0 w-3/4 h-2/5 bg-gradient-to-tr from-pink-100 to-indigo-100 dark:bg-gradient-to-tr dark:from-gray-950 dark:to-gray-700" />
                 <Image
