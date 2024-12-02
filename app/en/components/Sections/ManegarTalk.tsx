@@ -4,9 +4,9 @@ import Link from "next/link";
 
 const ManegarTalk = () => {
   return (
-    <main className="w-full">
+    <main className="w-full min-h-screen">
       <section className="relative pt-10 xl:pt-14 bg-gray-50 dark:bg-gray-900">
-        {/* الخلفية الهندسية */}
+        {/* خلفية هندسية */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-0 left-0 w-64 h-64 bg-indigo-100 dark:bg-indigo-900 rounded-full opacity-50"></div>
           <div className="absolute bottom-10 right-10 w-96 h-96 bg-indigo-200 dark:bg-indigo-800 rounded-full opacity-30"></div>
@@ -16,10 +16,10 @@ const ManegarTalk = () => {
         <div className="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col lg:flex-row gap-8 lg:gap-10 xl:gap-12">
           {/* النصوص */}
           <div className="mx-auto text-center lg:text-left flex flex-col max-w-3xl justify-center lg:justify-start lg:py-8 flex-1 lg:w-1/2 lg:max-w-none">
-            <span className="bg-indigo-50 dark:bg-gray-900 text-lg/snug sm:text-xl/tight lg:text-2xl/tight xl:text-2xl/tight text-indigo-600 dark:text-indigo-300 inline-block border border-dashed border-indigo-600 px-3">
+            <span className="bg-indigo-50 dark:bg-gray-900 text-lg sm:text-xl lg:text-2xl xl:text-2xl text-indigo-600 dark:text-indigo-300 inline-block border border-dashed border-indigo-600 px-3">
               At Askar General Contracting Company,
             </span>
-            <h1 className="text-indigo-950 dark:text-white text-xl/snug sm:text-xl/tight lg:text-2xl/tight xl:text-4xl/tight font-semibold">
+            <h1 className="text-indigo-950 dark:text-white text-xl sm:text-xl lg:text-2xl xl:text-4xl font-semibold text-justify">
               we are committed to delivering the highest standards of quality
               and professionalism in all our projects.
             </h1>
@@ -42,14 +42,21 @@ const ManegarTalk = () => {
           <div className="flex flex-1 lg:w-1/2 relative max-w-3xl mx-auto lg:max-w-none">
             <Image
               src="https://res.cloudinary.com/dvhcaimzt/image/upload/v1732971159/inodonqoehyqa41ocxs4.jpg"
-              alt="happy team"
+              alt="A happy team working together"
               width={1850}
               height={1200}
               className="lg:absolute w-full lg:inset-x-0 object-cover lg:h-full"
+              loading="lazy" // Lazy loading to improve performance
             />
           </div>
         </div>
       </section>
+
+      {/* SEO Meta Tag */}
+      <meta
+        name="description"
+        content="At Askar General Contracting Company, we are dedicated to delivering high standards of quality and professionalism in every project we undertake."
+      />
     </main>
   );
 };

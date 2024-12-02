@@ -1,8 +1,20 @@
+import Link from "next/link";
 import React from "react";
 
 const Contact = () => {
   return (
-    <section className="text-gray-600 dark:text-gray-200 body-font relative bg-gray-100 dark:bg-gray-900"style={{ backgroundImage: "url(&apos;/images/IMG-20241129-WA0049.jpg&apos;)", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundAttachment: "fixed", backgroundClip: "border-box", backgroundBlendMode: "overlay"}}>
+    <section
+      className="text-gray-600 dark:text-gray-200 body-font relative bg-gray-100 dark:bg-gray-900"
+      style={{
+        backgroundImage: "url(&apos;/images/IMG-20241129-WA0049.jpg&apos;)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+        backgroundClip: "border-box",
+        backgroundBlendMode: "overlay",
+      }}
+    >
       <div></div>
       <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
         {/* Map Section */}
@@ -16,23 +28,55 @@ const Contact = () => {
             src="https://www.google.com/maps/embed?..."
           ></iframe>
           <div className="bg-white dark:bg-gray-700 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-semibold text-gray-900 dark:text-gray-200 tracking-widest text-xs">
+            <div className="w-full lg:w-1/2 px-6 mb-4 lg:mb-0">
+              <h2 className="font-semibold text-gray-900 dark:text-gray-200 tracking-widest text-xs">
                 ADDRESS
               </h2>
-              <p className="mt-1">Sector 12, Alexandria, Egypt.</p>
+              <p className="mt-1 text-sm">
+                Alexandria – Amreya – Al-Nahda Road – Karnak 1
+              </p>
             </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-gray-900 dark:text-gray-200 tracking-widest text-xs">
+            <div className="w-full lg:w-1/2 px-6 mb-4 lg:mb-0">
+              <h2 className="font-semibold text-gray-900 dark:text-gray-200 tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-500 dark:text-indigo-400 leading-relaxed">
-                contact@factory.com
-              </a>
-              <h2 className="title-font font-semibold text-gray-900 dark:text-gray-200 tracking-widest text-xs mt-4">
-                PHONE
+              <h2 className="text-indigo-500 dark:text-indigo-400 leading-relaxed">
+                askar@info.com
               </h2>
-              <p className="leading-relaxed">+20 123 456 7890</p>
+            </div>
+            <div className="w-full lg:w-1/2 px-6 mb-4 lg:mb-0 flex items-center space-x-4">
+              <div className="flex items-center space-x-1">
+                <h2 className="font-semibold text-gray-900 dark:text-gray-200 tracking-widest text-xs">
+                  PHONE
+                </h2>
+                <p className="text-indigo-500 dark:text-indigo-400 leading-relaxed text-xs">
+                  03 4770952
+                </p>
+              </div>
+            </div>
+            <div className="w-full lg:w-1/2 px-6 mb-4 lg:mb-0 flex items-center space-x-4">
+              <div className="flex items-center space-x-1">
+                <h2 className="font-semibold text-gray-900 dark:text-gray-200 tracking-widest text-xs">
+                  Whatsapp
+                </h2>
+                <Link href="https://wa.me/+201000459052" target="_blank">
+                  <p className="text-indigo-500 dark:text-indigo-400 leading-relaxed text-xs">
+                    +20 1000 459 052
+                  </p>
+                </Link>
+              </div>
+            </div>
+            <div className="w-full lg:w-1/2 px-6 flex items-center space-x-4">
+              <div className="flex items-center space-x-1">
+                <h2 className="font-semibold text-gray-900 dark:text-gray-200 tracking-widest text-xs">
+                  Mobile
+                </h2>
+                <Link href="tel:+201228171485">
+                  <p className="text-indigo-500 dark:text-indigo-400 leading-relaxed text-xs">
+                    +20 1228 171 485
+                  </p>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -40,7 +84,7 @@ const Contact = () => {
         {/* Form Section */}
         <div className="lg:w-1/2 p-5 md:w-1/2 rounded-lg bg-white dark:bg-gray-800 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-gray-900 dark:text-gray-200 text-2xl mb-3 font-medium title-font">
-            Get in Touch
+            Contact with Askar Co.
           </h2>
           <p className="leading-relaxed mb-5 text-gray-600 dark:text-gray-400">
             Have a question or want to work together? Fill the form below, and
@@ -91,7 +135,7 @@ const Contact = () => {
             ></textarea>
           </div>
           {/* Submit Button */}
-          <button className="text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-700 dark:from-indigo-600 dark:via-purple-600 dark:to-indigo-800 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-600 dark:hover:bg-indigo-700 rounded-lg shadow-lg text-lg transition-all">
+          <button className="text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-700 dark:from-indigo-600 dark:via-purple-600 dark:to-indigo-800 border-0 py-3 px-6 hover:opacity-50 rounded-lg shadow-lg text-lg">
             Send Message
           </button>
           <p className="text-xs text-gray-500 dark:text-gray-400 mt-3">

@@ -6,29 +6,26 @@ import { useSwipeable } from "react-swipeable";
 const TeamTalk = () => {
   const testimonials = [
     {
-      quote:
-        "We believe that effective management is the foundation for achieving our company's goals, and we are always committed to providing a work environment that fosters innovation and excellence.",
+      quote: "Effective management is key to achieving our goals, fostering innovation and excellence in our work environment.",
       name: "Adel Mohamed Askar",
       position: "Administrative Manager",
     },
     {
-      quote:
-        "In the Mechanical Engineering Department, we strive to deliver innovative solutions that ensure high quality and efficiency, with a focus on meeting our clients' needs.",
+      quote: "In Mechanical Engineering, we deliver innovative solutions focused on quality, efficiency, and client satisfaction.",
       name: "Assem Abdelrahman AbouAsal",
       position: "Mechanical Engineer",
     },
     {
-      quote:
-        "Civil engineering is the backbone of infrastructure, and we work diligently to deliver projects that ensure durability and sustainability for future generations.",
+      quote: "Civil engineering is crucial for infrastructure, ensuring durability and sustainability for future generations.",
       name: "Hassan Emad Qassem",
       position: "Civil Engineer",
     },
     {
-      quote:
-        "Successful financial management is not just numbers; it is the planning that ensures stability and sustainable growth for our company.",
+      quote: "Financial management goes beyond numbers—it's about planning for stability and sustainable growth.",
       name: "Karim Mohamed El-Sherbiny",
       position: "Financial Manager",
     },
+    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -70,13 +67,13 @@ const TeamTalk = () => {
                 key={index}
                 className="flex-shrink-0 w-full text-center p-6 bg-white dark:bg-gray-800 shadow-lg rounded-lg"
               >
-                <p className="text-gray-600 dark:text-gray-300 text-lg">
+                <p className="text-gray-600 dark:text-gray-300 text-lg max-sm:text-sm">
                   {testimonial.quote}
                 </p>
                 <h2 className="mt-6 text-xl font-bold text-gray-800 dark:text-white">
                   {testimonial.name}
                 </h2>
-                <span className="text-gray-500 dark:text-gray-400">
+                <span className="text-gray-500 dark:text-gray-400 max-sm:text-sm">
                   {testimonial.position}
                 </span>
               </div>
@@ -87,7 +84,7 @@ const TeamTalk = () => {
           <button
             onClick={handlePrev}
             title="Previous"
-            className="absolute top-1/2 left-3 transform -translate-y-1/2 p-3 rounded-full bg-indigo-700 dark:bg-indigo-700 hover:bg-indigo-700 dark:hover:bg-indigo-700 text-white shadow-md"
+            className="absolute top-1/2 left-3 max-sm:left-0 max-sm:scale-75 transform -translate-y-1/2 p-3 rounded-full bg-indigo-700 dark:bg-indigo-700 hover:bg-indigo-700 dark:hover:bg-indigo-700 text-white shadow-md"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +104,7 @@ const TeamTalk = () => {
           <button
             onClick={handleNext}
             title="Next"
-            className="absolute top-1/2 right-3 transform -translate-y-1/2 p-3 rounded-full bg-indigo-700 dark:bg-indigo-700 hover:bg-indigo-700 dark:hover:bg-indigo-700 text-white shadow-md"
+            className="absolute top-1/2 right-3 max-sm:right-0 max-sm:scale-75 transform -translate-y-1/2 p-3 rounded-full bg-indigo-700 dark:bg-indigo-700 hover:bg-indigo-700 dark:hover:bg-indigo-700 text-white shadow-md"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

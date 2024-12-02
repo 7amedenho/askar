@@ -12,7 +12,7 @@ const Loader: React.FC<LoaderProps> = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 4000); // 4 ثوانٍ للأنيميشن
+    const timer = setTimeout(() => setIsLoading(false), 2500); // 2.5 ثوانٍ للأنيميشن
     return () => clearTimeout(timer);
   }, []);
 
@@ -20,7 +20,9 @@ const Loader: React.FC<LoaderProps> = () => {
 
   return (
     <motion.div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-gray-900"
+      className="fixed inset-0 flex items-center justify-center bg-gray-900" style={{
+        zIndex: 9999
+      }}
       initial={{ opacity: 1 }}
       animate={{ opacity: 0 }}
       transition={{ duration: 1, delay: 3 }}

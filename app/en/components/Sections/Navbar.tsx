@@ -14,19 +14,40 @@ import {
 import { IoLanguageSharp } from "react-icons/io5";
 import Logo from "@/components/ui/Logo";
 import LogoDM from "@/components/ui/LogoDM";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa6";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaLocationDot,
+  FaLocationPin,
+} from "react-icons/fa6";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { SiWhatsapp } from "react-icons/si";
 import { ThemeSwitcher } from "../../../../components/ui/ThemeSwitcher";
 import { useTheme } from "next-themes";
+import { useRouter } from "next/navigation";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const { theme, systemTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
-  const [mounted, setMounted] = useState(false);
+  const [, setMounted] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
+  const [language, setLanguage] = useState("English");
+  const router = useRouter();
+
+  const handleLanguageChange = (
+    event: React.ChangeEvent<HTMLSelectElement>
+  ) => {
+    const selectedLanguage = event.target.value;
+    setLanguage(selectedLanguage);
+    if (selectedLanguage === "Arabic") {
+      router.push("/ar");
+    } else {
+      router.push("/en");
+    }
+  };
 
   // Ensure theme is ready
   useEffect(() => {
@@ -51,30 +72,35 @@ export default function App() {
     <div>
       {/* شريط المعلومات العلوي */}
       <div
-        className={`h-8 fixed w-full z-50 bg-indigo-700 dark:bg-gray-900 flex align-middle items-center justify-between px-4 ${
+        className={`h-8 fixed w-full z-50 bg-indigo-700 dark:bg-gray-900 flex items-center justify-between px-4 ${
           isVisible ? "translate-y-0" : "-translate-y-full"
         } transition-transform duration-300`}
       >
-        <nav className="flex text-xl text-white items-center justify-center">
-          <ul className="hover:text-indigo-300 duration-300 mx-1">
-            <Link href="#">
-              <FaFacebook className="text-white" />
-            </Link>
-          </ul>
-          <ul className="hover:text-indigo-300 duration-300 mx-1">
-            <Link href="#">
-              <FaLinkedin className="text-white" />
-            </Link>
-          </ul>
-          <ul className="hover:text-indigo-300 duration-300 mx-1">
-            <Link href="#">
-              <FaInstagram className="text-white" />
-            </Link>
-          </ul>
+        <nav className="flex items-center text-white space-x-1 text-lg">
+         
+   
+          <Link href="#" className="hover:text-indigo-300 duration-300">
+            <FaFacebook className="text-white" />
+          </Link>
+          <Link href="#" className="hover:text-indigo-300 duration-300">
+            <FaLocationDot className="text-white" />
+          </Link>
+          <div className="flex items-center font-mono text-white hover:text-indigo-300 transition-all duration-300">
+            <MdMarkEmailUnread className="text-xl" />
+            <span className="ml-1 text-lg">askar@info.com</span>
+          </div>
         </nav>
-        <div className="flex items-center font-mono text-white hover:text-indigo-300 transition-all duration-300">
-          <MdMarkEmailUnread className="text-2xl" />
-          <span className="ml-1 tracking-widest">askar@info.com</span>
+        <div className="flex items-center text-gray-200">
+          <IoLanguageSharp className="text-xl" />
+          <select
+            name="language"
+            className="focus:outline-none ml-1 bg-indigo-700 dark:bg-gray-900 text-gray-200"
+            value={language}
+            onChange={handleLanguageChange}
+          >
+            <option value="English">English</option>
+            <option value="Arabic">العربية</option>
+          </select>
         </div>
       </div>
 
@@ -126,7 +152,7 @@ export default function App() {
           </NavbarItem>
           <NavbarItem>
             <Link
-              href="/en/AboutUS"
+              href="/en/AboutUs"
               className="hover:text-indigo-700 dark:hover:text-indigo-400 text-lg transition-all duration-300 border-b-2 border-transparent hover:border-indigo-700 dark:hover:border-indigo-400"
             >
               About Us
@@ -145,18 +171,20 @@ export default function App() {
         {/* خيارات إضافية */}
         <NavbarContent justify="end" className="flex relative gap-4">
           {/* اختيار اللغة */}
-          <NavbarItem className="hidden lg:flex">
+          {/* <NavbarItem className="hidden lg:flex">
             <div className="flex items-center text-gray-900 dark:text-gray-200">
               <IoLanguageSharp className="text-xl" />
               <select
                 name="language"
                 className="bg-transparent dark:bg-slate-800 focus:outline-none ml-1"
+                value={language}
+                onChange={handleLanguageChange}
               >
                 <option value="English">English</option>
                 <option value="Arabic">العربية</option>
               </select>
             </div>
-          </NavbarItem>
+          </NavbarItem> */}
 
           {/* واتساب */}
           <NavbarItem>

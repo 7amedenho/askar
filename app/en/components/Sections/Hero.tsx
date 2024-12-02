@@ -57,16 +57,19 @@ export default function Hero() {
           Contact Us
         </Button>
       </div>
+
+      {/* Carousel with lazy loading and alt texts for SEO */}
       <div className="backdrop-blur-sm">
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container flex">
-            <div className="embla__slide ">
+            <div className="embla__slide">
               <Image
                 className="object-cover brightness-50 max-sm:h-screen"
                 src="/image1.jpg"
                 width={1920}
                 height={1080}
-                alt=""
+                alt="Modern construction site with machinery and workers"
+                loading="lazy" // Lazy load image
               />
             </div>
             <div className="embla__slide">
@@ -75,7 +78,8 @@ export default function Hero() {
                 src="/image2.jpg"
                 width={1920}
                 height={1080}
-                alt=""
+                alt="Construction workers assembling metal structures"
+                loading="lazy" // Lazy load image
               />
             </div>
             <div className="embla__slide">
@@ -84,21 +88,25 @@ export default function Hero() {
                 src="/image3.jpg"
                 width={1920}
                 height={1080}
-                alt=""
+                alt="High-tech construction equipment at work"
+                loading="lazy" // Lazy load image
               />
             </div>
           </div>
         </div>
-        {/* أزرار التنقل */}
+
+        {/* Navigation buttons with aria-labels for accessibility */}
         <button
           className="embla__prev absolute top-1/2 -translate-y-1/2"
           onClick={scrollPrev}
+          aria-label="Scroll to previous slide"
         >
           <AiOutlineLeft className="text-white text-6xl hover:text-indigo-600 duration-200 max-sm:text-2xl pl-2" />
         </button>
         <button
           className="embla__next absolute top-1/2 right-0 -translate-y-1/2"
           onClick={scrollNext}
+          aria-label="Scroll to next slide"
         >
           <AiOutlineRight className="text-white text-6xl hover:text-indigo-600 duration-200 max-sm:text-2xl pr-2" />
         </button>
