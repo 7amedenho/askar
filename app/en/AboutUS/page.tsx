@@ -3,7 +3,6 @@ import { GiFactory } from "react-icons/gi";
 import { IoSettingsSharp } from "react-icons/io5";
 import { FaTools } from "react-icons/fa";
 import Link from "next/link";
-import Loader from "@/components/ui/Loader";
 import Head from "next/head";
 
 export default function AboutUs() {
@@ -59,7 +58,7 @@ export default function AboutUs() {
                   solutions across industries. With a commitment to quality,
                   innovation, and efficiency, Askar combines years of expertise
                   with cutting-edge technologies to meet the demands of diverse
-                  projects. The company's services span across mechanical
+                  projects. The company&apos;s services span across mechanical
                   systems, civil construction, and metal forming & fabrication,
                   ensuring clients receive tailored solutions that align with
                   their unique needs.
@@ -159,7 +158,7 @@ export default function AboutUs() {
                   group of highly skilled and experienced engineers and
                   technicians. We strive to provide a work environment that
                   fosters innovation and continuous development, ensuring
-                  outstanding services that meet our clients' needs with the
+                  outstanding services that meet our clients&apos; needs with the
                   highest standards of quality. Our team undergoes regular
                   training on the latest technologies and systems to ensure
                   efficiency and professionalism in project execution.

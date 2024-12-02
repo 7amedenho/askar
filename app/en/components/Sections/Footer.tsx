@@ -1,7 +1,5 @@
 import {
   FaFacebook,
-  FaLinkedin,
-  FaInstagram,
   FaLocationDot,
 } from "react-icons/fa6";
 import Image from "next/image";

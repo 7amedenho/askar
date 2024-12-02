@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Contact from "../components/Sections/Contact";
 import Head from "next/head";
 
@@ -11,7 +10,7 @@ export default function ContactUs() {
       <title>Contact Us | Askar Group General Contracting</title>
         <meta
           name="description"
-          content="Get in touch with our team for tailored solutions to your business needs. We're here to help you achieve your goals."
+          content="Get in touch with our team for tailored solutions to your business needs. We&apos;re here to help you achieve your goals."
         />
         <meta name="keywords" content="Contact, Support, Business Solutions, Communication" />
         <meta name="author" content="Askar Group" />
@@ -47,7 +46,7 @@ export default function ContactUs() {
           <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 grid lg:grid-cols-2 lg:items-center gap-10">
             <div className="flex flex-col space-y-8 sm:space-y-10 lg:items-center text-center lg:text-left max-w-2xl md:max-w-3xl mx-auto">
               <h1 className="font-semibold leading-tight text-gray-900 dark:text-white text-4xl sm:text-5xl lg:text-6xl">
-                We'll be happy to take care of{" "}
+                We&apos;ll be happy to take care of{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-tr from-pink-700 to-indigo-600">
                   your work.
                 </span>

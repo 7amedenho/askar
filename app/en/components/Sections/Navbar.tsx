@@ -16,10 +16,7 @@ import Logo from "@/components/ui/Logo";
 import LogoDM from "@/components/ui/LogoDM";
 import {
   FaFacebook,
-  FaInstagram,
-  FaLinkedin,
   FaLocationDot,
-  FaLocationPin,
 } from "react-icons/fa6";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { SiWhatsapp } from "react-icons/si";
