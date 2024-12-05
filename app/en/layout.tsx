@@ -55,7 +55,7 @@ export default function RootLayout({
                 "@type": "Organization",
                 name: "Askar Group",
                 url: "https://askar-Group.com/",
-                logo: "https://askar-Group.com/logoDM.png",
+                logo: "https://askar-Group.com/logo.png",
                 description:
                   "Askar Group is a leading provider of general contracting and construction services in Egypt.",
                 address: {
