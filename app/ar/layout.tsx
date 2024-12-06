@@ -29,14 +29,12 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "عسكر للمقاولات العمومية",
+    images: ["https://res.cloudinary.com/dvhcaimzt/image/upload/w_1000/q_auto/f_auto/v1733511244/opengraph-image_wwy08v.png"],
   },
   openGraph: {
-    title: "عسكر للمقاولات العمومية",
-    description:
-      "Askar Co. for General Contracting, a leading provider of construction services in Egypt.",
     images: [
       {
-        url: "https://askargroups.com/opengraph-image.png",
+        url: "https://res.cloudinary.com/dvhcaimzt/image/upload/w_1000/q_auto/f_auto/v1733511244/opengraph-image_wwy08v.png",
         width: 800,
         height: 600,
         alt: "Askar Group",
