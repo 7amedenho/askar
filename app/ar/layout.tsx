@@ -48,7 +48,7 @@ export default function RootLayout({
         }
       >
         <Head>
-          <title>مجموعة عسكر | خدمات المقاولات العامة في مصر</title>
+          <title>شركة عسكر للمقاولات العمومية</title>
           <meta
             name="description"
             content="اكتشف مجموعة عسكر، الرائدة في خدمات المقاولات العامة والإنشاءات في مصر. نقدم نتائج مميزة تلبي جميع احتياجاتك الإنشائية."
@@ -64,7 +64,6 @@ export default function RootLayout({
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-          <meta />
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
@@ -73,7 +72,7 @@ export default function RootLayout({
                 "@type": "Organization",
                 name: "مجموعة عسكر",
                 url: "https://askar-Group.com/",
-                logo: "https://askar-Group.com/logoDM.png",
+                logo: "https://askar-Group.com/logo.png",
                 description:
                   "مجموعة عسكر هي المزود الرائد لخدمات المقاولات العامة والإنشاءات في مصر.",
                 address: {
