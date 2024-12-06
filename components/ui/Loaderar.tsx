@@ -12,7 +12,7 @@ const Loader: React.FC<LoaderProps> = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 2500); // 2.5 ثوانٍ للأنيميشن
+    const timer = setTimeout(() => setIsLoading(false), 1000); // 2.5 ثوانٍ للأنيميشن
     return () => clearTimeout(timer);
   }, []);
 

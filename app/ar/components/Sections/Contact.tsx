@@ -14,7 +14,8 @@ const Contact = () => {
         backgroundClip: "border-box",
         backgroundBlendMode: "overlay",
       }}
-    dir="ltr">
+      dir="ltr"
+    >
       <div></div>
       <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
         {/* Map Section */}
@@ -24,10 +25,12 @@ const Contact = () => {
             height="100%"
             className="absolute inset-0"
             title="map"
-            scrolling="no"
-            src="https://www.google.com/maps/embed?..."
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.8838489773057!2d29.837416!3d30.990099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5ed007bd747f7%3A0xb7e745a21acf81e4!2z2YXYtdmG2Lkg2LnYs9mD2LEg2YTYqti02YPZitmEINin2YTZhdi52KfYr9mG!5e0!3m2!1sar!2seg!4v1689595835366!5m2!1sar!2seg"
           ></iframe>
-          <div className="bg-white dark:bg-gray-700 relative flex flex-wrap py-6 rounded shadow-md" dir="rtl">
+          <div
+            className="bg-white dark:bg-gray-700 relative flex flex-wrap py-6 rounded shadow-md"
+            dir="rtl"
+          >
             <div className="w-full lg:w-1/2 px-6 mb-4 lg:mb-0">
               <h2 className="font-semibold text-gray-900 dark:text-gray-200 tracking-widest text-xs">
                 العنوان
@@ -49,7 +52,10 @@ const Contact = () => {
                 <h2 className="font-semibold text-gray-900 dark:text-gray-200 tracking-widest text-xs">
                   الهاتف
                 </h2>
-                <p className="text-indigo-500 dark:text-indigo-400 leading-relaxed text-xs px-2" dir="ltr">
+                <p
+                  className="text-indigo-500 dark:text-indigo-400 leading-relaxed text-xs px-2"
+                  dir="ltr"
+                >
                   03 4770952
                 </p>
               </div>
@@ -60,7 +66,10 @@ const Contact = () => {
                   واتساب
                 </h2>
                 <Link href="https://wa.me/+201000459052" target="_blank">
-                  <p className="text-indigo-500 dark:text-indigo-400 leading-relaxed text-xs px-2" dir="ltr">
+                  <p
+                    className="text-indigo-500 dark:text-indigo-400 leading-relaxed text-xs px-2"
+                    dir="ltr"
+                  >
                     +20 1000 459 052
                   </p>
                 </Link>
@@ -72,8 +81,11 @@ const Contact = () => {
                   موبايل
                 </h2>
                 <Link href="tel:+201228171485">
-                  <p className="text-indigo-500 dark:text-indigo-400 leading-relaxed text-xs px-2" dir="ltr">
-                  +20 1228 171 485 
+                  <p
+                    className="text-indigo-500 dark:text-indigo-400 leading-relaxed text-xs px-2"
+                    dir="ltr"
+                  >
+                    +20 1228 171 485
                   </p>
                 </Link>
               </div>
@@ -82,12 +94,16 @@ const Contact = () => {
         </div>
 
         {/* Form Section */}
-        <div className="lg:w-1/2 p-5 md:w-1/2 rounded-lg bg-white dark:bg-gray-800 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0" dir="rtl">
+        <div
+          className="lg:w-1/2 p-5 md:w-1/2 rounded-lg bg-white dark:bg-gray-800 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+          dir="rtl"
+        >
           <h2 className="text-gray-900 dark:text-gray-200 text-2xl mb-3 font-medium title-font">
-            تواصل مع شركة أسكار
+            تواصل مع شركة عسكر
           </h2>
           <p className="leading-relaxed mb-5 text-gray-600 dark:text-gray-400">
-            لديك سؤال أو ترغب في التعاون؟ قم بملء النموذج أدناه وسنرد عليك قريبًا!
+            لديك سؤال أو ترغب في التعاون؟ قم بملء النموذج أدناه وسنرد عليك
+            قريبًا!
           </p>
           {/* Name Input */}
           <div className="relative mb-4">

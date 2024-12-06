@@ -2,7 +2,12 @@ import Image from "next/image";
 import Contact from "../components/Sections/Contact";
 import Head from "next/head";
 import Link from "next/link";
+import Loaderar from "@/components/ui/Loaderar";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "تواصل معنا",
+};
 export default function ContactUs() {
   return (
     <>
@@ -18,7 +23,7 @@ export default function ContactUs() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="canonical" href="https://yourdomain.com/contact-us" />
       </Head>
-
+      <Loaderar Logo={"/logoDM.png"}/>
       <main className="bg-gradient-to-br dark:from-slate-900 via-gray-800 to-gray-900 overflow-hidden pt-44">
         {/* تأثيرات الخلفية */}
         <div className="absolute inset-0 opacity-20">
@@ -62,7 +67,7 @@ export default function ContactUs() {
             </div>
             {/* صور البطل */}
             <div className="flex aspect-square lg:aspect-auto lg:h-[35rem] relative">
-              <div className="w-3/5 h-[80%] rounded-3xl overflow-hidden border-8 border-gray-200 dark:border-slate-800 z-30">
+              <div className="w-3/5 h-[80%] rounded-3xl overflow-hidden border-8 border-gray-200 dark:border-slate-800 z-20">
                 <Image
                   src="https://res.cloudinary.com/dvhcaimzt/image/upload/v1732973096/IMG-20241129-WA0050_ebxwog.jpg"
                   alt="خطة البناء"
@@ -98,7 +103,7 @@ export default function ContactUs() {
               </h1>
 
               <p className="mt-3 text-gray-500 dark:text-gray-400">
-                فريقنا الودود هنا دائمًا للحديث.
+                فريقنا هنا دائمًا للحديث.
               </p>
             </div>
 
@@ -125,7 +130,7 @@ export default function ContactUs() {
                   البريد الالكتروني
                 </p>
                 <p className="mt-2 text-gray-500 dark:text-gray-400">
-                  فريقنا الودود هنا دائمًا للحديث.
+                  فريقنا هنا دائمًا للحديث.
                 </p>
                 <p className="mt-2 text-indigo-500 dark:text-indigo-400">
                   askar@info.com

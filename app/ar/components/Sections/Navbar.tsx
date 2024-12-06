@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import {
   Navbar,
   NavbarBrand,
@@ -19,6 +19,7 @@ import { MdMarkEmailUnread } from "react-icons/md";
 import { SiWhatsapp } from "react-icons/si";
 import { ThemeSwitcher } from "../../../../components/ui/ThemeSwitcher";
 import { useTheme } from "next-themes";
+import Loader from "@/components/ui/Loader";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -48,6 +49,7 @@ export default function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
+    <Suspense fallback={<Loader Logo="/logoDM.png" />}>
     <div>
       {/* شريط المعلومات العلوي */}
       <div
@@ -223,5 +225,6 @@ export default function App() {
         </NavbarMenu>
       </Navbar>
     </div>
+    </Suspense>
   );
 }

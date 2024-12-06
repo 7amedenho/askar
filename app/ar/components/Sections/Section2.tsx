@@ -50,7 +50,7 @@ export default function HeroSection() {
                 <div className="flex flex-wrap items-center gap-4 z-30 sm:w-max sm:flex-nowrap mx-auto lg:mx-0">
                   <Link
                     href="#contact"
-                    className="w-full py-3 px-6 bg-transparent border border-indigo-600 hover:bg-indigo-700 hover:text-white dark:text-white text-indigo-700 font-semibold rounded-lg shadow-lg transition-all duration-300"
+                    className="py-3 px-6 bg-transparent border border-indigo-600 hover:bg-indigo-700 hover:text-white dark:text-white text-indigo-700 font-semibold rounded-lg shadow-lg transition-all duration-300"
                     aria-label="اتصل بنا"
                   >
                     اتصل بنا
@@ -61,9 +61,9 @@ export default function HeroSection() {
                 aria-hidden="true"
                 className="flex-1 lg:w-1/2 relative lg:flex justify-end pr-8"
               >
-                <div className="rounded-lg absolute right-0 bottom-0 w-3/4 h-2/5 bg-gradient-to-tr from-pink-100 to-indigo-100 dark:bg-gradient-to-tr dark:from-gray-950 dark:to-gray-700" />
+                <div className="rounded-lg max-sm:w-3/4 absolute right-0 bottom-0 w-3/4 h-2/5 bg-gradient-to-tr from-pink-100 to-indigo-100 dark:bg-gradient-to-tr dark:from-gray-950 dark:to-gray-700" />
                 <Image
-                  src="https://res.cloudinary.com/dvhcaimzt/image/upload/v1733059671/IMG-20241129-WA0053_yhnzqv_w1zjfm.png"
+                  src="https://res.cloudinary.com/dvhcaimzt/image/upload/w_1000/q_auto/f_auto/v1733059671/IMG-20241129-WA0053_yhnzqv_w1zjfm.png"
                   width={700}
                   height={700}
                   className="w-3/4 h-auto relative"

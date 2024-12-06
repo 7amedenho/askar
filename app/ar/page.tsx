@@ -12,6 +12,7 @@ import TeamTalk from "./components/Sections/TeamTalk";
 
 export default function Home() {
   return (
+    
     <div>
       <Hero />
       <div className="bg-indigo-600 dark:bg-slate-800">
@@ -22,20 +23,18 @@ export default function Home() {
           </h1>
         </div>
       </div>
-
       <Section />
       <div className="bg-indigo-700 dark:bg-slate-800 py-4">
         <h2 className="text-center font-bold text-sm md:text-lg text-slate-50">
           منذ عام 2004، رواد في الحلول الميكانيكية والمدنية
         </h2>
       </div>
-
       <Section1 />
+      <Section3 />
       <CTA />
       <State />
       <Blog />
       <Section2 />
-      <Section3 />
       <TeamTalk />
       <ManegarTalk />
       <Contact />

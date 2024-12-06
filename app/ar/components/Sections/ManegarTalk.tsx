@@ -17,7 +17,7 @@ const ManegarTalk = () => {
           {/* النصوص */}
           <div className="mx-auto text-center space-y-3 lg:text-right flex flex-col max-w-3xl justify-center lg:justify-start lg:py-8 flex-1 lg:w-1/2 lg:max-w-none">
             <span className="bg-indigo-50 dark:bg-gray-900 text-lg sm:text-xl lg:text-2xl xl:text-2xl text-indigo-600 dark:text-indigo-300 inline-block border border-dashed border-indigo-600 px-3">
-              في شركة أسكار للمقاولات العامة،
+              في شركة عسكر للمقاولات العامة،
             </span>
             <h1 className="text-indigo-950 dark:text-white text-xl sm:text-xl lg:text-2xl xl:text-4xl font-semibold">
               نحن ملتزمون بتقديم أعلى معايير الجودة والاحترافية في جميع مشاريعنا.
@@ -40,8 +40,8 @@ const ManegarTalk = () => {
           {/* الصورة */}
           <div className="flex flex-1 lg:w-1/2 relative max-w-3xl mx-auto lg:max-w-none">
             <Image
-              src="https://res.cloudinary.com/dvhcaimzt/image/upload/v1732971159/inodonqoehyqa41ocxs4.jpg"
-              alt="فريق سعيد يعمل معًا"
+              src="https://res.cloudinary.com/dvhcaimzt/image/upload/w_1000/q_auto/f_auto/v1732971159/inodonqoehyqa41ocxs4.jpg"
+              alt="مدير شركة عسكر للقاولات العمومية"
               width={1850}
               height={1200}
               className="lg:absolute w-full lg:inset-x-0 object-cover lg:h-full"
@@ -54,7 +54,7 @@ const ManegarTalk = () => {
       {/* وسم SEO */}
       <meta
         name="description"
-        content="في شركة أسكار للمقاولات العامة، نحن ملتزمون بتقديم أعلى معايير الجودة والاحترافية في كل مشروع نقوم به."
+        content="في شركة عسكر للمقاولات العامة، نحن ملتزمون بتقديم أعلى معايير الجودة والاحترافية في كل مشروع نقوم به."
       />
     </main>
   );

@@ -10,7 +10,7 @@ const State = () => {
     <section
       className="py-10 bg-gray-900 border-y-2 border-indigo-700"
       style={{
-        backgroundImage: "url('https://res.cloudinary.com/dvhcaimzt/image/upload/v1732973095/IMG-20241129-WA0045_vusrwo.jpg')",
+        backgroundImage: "url('https://res.cloudinary.com/dvhcaimzt/image/upload/w_1000/q_auto/f_auto/v1732973095/IMG-20241129-WA0045_vusrwo.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",

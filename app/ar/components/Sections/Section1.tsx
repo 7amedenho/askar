@@ -12,7 +12,7 @@ const Section1 = () => {
           className="w-full h-full opacity-40"
           style={{
             backgroundImage:
-              "url('https://res.cloudinary.com/dvhcaimzt/image/upload/v1732973071/IMG-20241129-WA0034_vff8lk.jpg')",
+              "url('https://res.cloudinary.com/dvhcaimzt/image/upload/w_1000/q_auto/f_auto/v1732973071/IMG-20241129-WA0034_vff8lk.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundBlendMode: "overlay",
@@ -118,7 +118,7 @@ const Section1 = () => {
         >
           <div className="absolute inset-x-0 bottom-0 h-2/4 bg-gradient-to-tr from-gray-100 to-gray-300 dark:from-slate-900 dark:to-slate-700 rounded-3xl"></div>
           <Image
-            src="https://res.cloudinary.com/dvhcaimzt/image/upload/v1732971157/oocqdgtbi2wkosg1te77.png"
+            src="https://res.cloudinary.com/dvhcaimzt/image/upload/w_1000/q_auto/f_auto/v1732971157/oocqdgtbi2wkosg1te77.png"
             width={700}
             height={700}
             alt="الإنسان يعمل على تشكيل المعادن"

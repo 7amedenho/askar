@@ -4,21 +4,29 @@ import { IoSettingsSharp } from "react-icons/io5";
 import { FaTools } from "react-icons/fa";
 import Link from "next/link";
 import Head from "next/head";
+import Contact from "@/app/ar/components/Sections/Contact";
+import Section3 from "../components/Sections/Section3";
+import Loaderar from "@/components/ui/Loaderar";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "من نحن؟"
+};
 export default function AboutUs() {
   return (
     <>
       <Head>
-        <title>من نحن | مجموعة عسّكار للمقاولات العامة</title>
+        <title>من نحن | مجموعة عسكر للمقاولات العامة</title>
         <meta
           name="description"
-          content="تعرف أكثر عن مجموعة عسّكار للمقاولات العامة، شركة مصرية رائدة في الأعمال الميكانيكية والمدنية."
+          content="تعرف أكثر عن مجموعة عسكر للمقاولات العامة، شركة مصرية رائدة في الأعمال الميكانيكية والمدنية."
         />
-        <meta name="keywords" content="اتصال, من نحن, عسّكار, تعلم أكثر" />
-        <meta name="author" content="مجموعة عسّكار" />
+        <meta name="keywords" content="اتصال, من نحن, عسكر, تعلم أكثر" />
+        <meta name="author" content="مجموعة عسكر" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="canonical" href="https://yourdomain.com/AboutUs" />
       </Head>
+      <Loaderar Logo={"/logoDM.png"}/>
       <div>
         <div className="bg-gray-50 dark:bg-gray-900">
           {/* Hero Section */}
@@ -51,11 +59,11 @@ export default function AboutUs() {
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-8">
                 <p className="text-lg text-gray-800 dark:text-gray-300 text-justify">
-                  تأسست مجموعة عسّكار للمقاولات العامة في عام 2004، وهي شركة
-                  مصرية رائدة في الأعمال الميكانيكية والمدنية. يقع مقر الشركة في
+                  تأسست مجموعة عسكر للمقاولات العامة في عام 2004، وهي شركة مصرية
+                  رائدة في الأعمال الميكانيكية والمدنية. يقع مقر الشركة في
                   الإسكندرية، وقد بنت سمعة قوية في تقديم حلول شاملة ومبتكرة عبر
                   مختلف الصناعات. مع التزامنا بالجودة والابتكار والكفاءة، تجمع
-                  مجموعة عسّكار بين سنوات من الخبرة والتكنولوجيا الحديثة لتلبية
+                  مجموعة عسكر بين سنوات من الخبرة والتكنولوجيا الحديثة لتلبية
                   متطلبات المشاريع المتنوعة. تشمل خدمات الشركة الأنظمة
                   الميكانيكية، الإنشاءات المدنية، وتشكيل المعادن وتصنيع الهياكل
                   المعدنية، مما يضمن للعملاء حلولًا مخصصة تتماشى مع احتياجاتهم
@@ -70,17 +78,17 @@ export default function AboutUs() {
                 />
               </div>
               <p className="mt-8 text-lg text-gray-800 dark:text-gray-300 text-justify">
-                في قلب عمليات مجموعة عسّكار فريق مكون من أكثر من 250 محترفًا
+                في قلب عمليات مجموعة عسكر فريق مكون من أكثر من 250 محترفًا
                 ماهرًا يعملون معًا للحفاظ على أعلى معايير التميز. مع أكثر من 20
                 عامًا من الخبرة ومحفظة تضم أكثر من 300 مشروع ناجح، أصبحت مجموعة
-                عسّكار للمقاولات العامة شريكًا موثوقًا به للأعمال التي تبحث عن
+                عسكر للمقاولات العامة شريكًا موثوقًا به للأعمال التي تبحث عن
                 حلول موثوقة ومتقدمة. رؤية الشركة هي أن تصبح رائدة في مجال
                 المقاولات العامة والأعمال الميكانيكية، مدفوعة بالابتكار والجودة
                 والاستدامة. سواء كان الأمر يتعلق بتصميم الأنظمة الميكانيكية أو
-                إنشاء البنية التحتية أو تصنيع الهياكل المعدنية، فإن مجموعة
-                عسّكار للمقاولات العامة تلتزم بتجاوز توقعات العملاء والمساهمة في
-                نجاح كل مشروع. لمزيد من المعلومات أو لمناقشة احتياجات مشروعك، لا
-                تتردد في الاتصال بفريق عسّكار اليوم.
+                إنشاء البنية التحتية أو تصنيع الهياكل المعدنية، فإن مجموعة عسكر
+                للمقاولات العامة تلتزم بتجاوز توقعات العملاء والمساهمة في نجاح
+                كل مشروع. لمزيد من المعلومات أو لمناقشة احتياجات مشروعك، لا
+                تتردد في الاتصال بفريق عسكر اليوم.
               </p>
             </div>
           </section>
@@ -132,33 +140,7 @@ export default function AboutUs() {
           </section>
 
           {/* Additional Section */}
-          <section className="py-24">
-            <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col md:flex-row gap-8">
-              <div className="flex md:flex">
-                <Image
-                  src="https://res.cloudinary.com/dvhcaimzt/image/upload/v1732973104/IMG-20241129-WA0049_jfgt1x.jpg"
-                  alt="creative agency "
-                  width={600}
-                  height={600}
-                  className="rounded-lg"
-                  loading="lazy"
-                />
-              </div>
-              <div className="md:w-1/2 space-y-12 text-gray-700 dark:text-gray-300 md:py-8">
-                <p className="text-gray-900 dark:text-white font-semibold text-2xl sm:text-3xl md:text-4xl">
-                  قوتنا العاملة
-                </p>
-                <p>
-                  نفخر بفريقنا الاستثنائي الذي يتضمن مجموعة مختارة من المهندسين
-                  والفنيين ذوي الخبرة العالية. نحن نسعى لتوفير بيئة عمل تعزز
-                  الابتكار والتطوير المستمر، مما يضمن تقديم خدمات استثنائية
-                  تلبّي احتياجات عملائنا بأعلى معايير الجودة. يخضع فريقنا
-                  لتدريبات منتظمة على أحدث التقنيات والأنظمة لضمان الكفاءة
-                  والاحترافية في تنفيذ المشاريع.
-                </p>
-              </div>
-            </div>
-          </section>
+          <Section3 />
           <section className="bg-white dark:bg-gray-900">
             <div className="container px-6 py-12 mx-auto">
               <div className="text-center">
@@ -233,7 +215,7 @@ export default function AboutUs() {
                   </p>
 
                   <p className="mt-2 text-indigo-500 dark:text-indigo-400">
-                   الإسكندرية - العامرية - طريق النهضة - الكرنك 1
+                    الإسكندرية - العامرية - طريق النهضة - الكرنك 1
                   </p>
                 </div>
 
@@ -261,7 +243,10 @@ export default function AboutUs() {
                   <p className="mt-2 text-gray-500 dark:text-gray-400">
                     من 10 صباحا الى 6 مساء
                   </p>
-                  <p className="mt-2 text-indigo-500 dark:text-indigo-400" dir="ltr">
+                  <p
+                    className="mt-2 text-indigo-500 dark:text-indigo-400"
+                    dir="ltr"
+                  >
                     03 4770952
                   </p>
                 </div>
@@ -284,13 +269,16 @@ export default function AboutUs() {
                   </span>
 
                   <p className="mt-4 text-lg font-medium text-gray-800 dark:text-white">
-                   واتس اب
+                    واتس اب
                   </p>
                   <p className="mt-2 text-gray-500 dark:text-gray-400">
                     24 ساعة
                   </p>
                   <Link href={"https://wa.me/201000459052"}>
-                    <p className="mt-2 text-indigo-500 dark:text-indigo-400" dir="ltr">
+                    <p
+                      className="mt-2 text-indigo-500 dark:text-indigo-400"
+                      dir="ltr"
+                    >
                       +20 1000 459 052
                     </p>
                   </Link>
@@ -317,10 +305,13 @@ export default function AboutUs() {
                     الهاتف
                   </p>
                   <p className="mt-2 text-gray-500 dark:text-gray-400">
-                   24 ساعة
+                    24 ساعة
                   </p>
                   <Link href="tel:+201228171485">
-                    <p className="mt-2 text-indigo-500 dark:text-indigo-400" dir="ltr">
+                    <p
+                      className="mt-2 text-indigo-500 dark:text-indigo-400"
+                      dir="ltr"
+                    >
                       +20 1228 171 485
                     </p>
                   </Link>
@@ -328,6 +319,7 @@ export default function AboutUs() {
               </div>
             </div>
           </section>
+          <Contact />
         </div>
       </div>
     </>

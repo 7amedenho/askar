@@ -32,7 +32,10 @@ export default function Hero() {
         <h1 className="text-3xl sm:text-6xl font-bold leading-tight">
           شركة عسكر
         </h1>
-        <h2 className="text-lg sm:text-3xl font-mono mt-4 sm:mt-6 text-gray-100" dir="rtl">
+        <h2
+          className="text-lg sm:text-3xl font-mono mt-4 sm:mt-6 text-gray-100"
+          dir="rtl"
+        >
           <Typewriter
             options={{
               strings: [
@@ -75,7 +78,7 @@ export default function Hero() {
             <div className="embla__slide">
               <Image
                 className="object-cover brightness-50 max-sm:h-screen"
-                src="/image2.jpg"
+                src="https://res.cloudinary.com/dvhcaimzt/image/upload/w_1000/q_auto/f_auto/v1732973050/IMG-20241021-WA0031_hspd7d.jpg"
                 width={1920}
                 height={1080}
                 alt="عمال بناء يقومون بتجميع هياكل معدنية"
@@ -85,11 +88,23 @@ export default function Hero() {
             <div className="embla__slide">
               <Image
                 className="object-cover brightness-50 max-sm:h-screen"
-                src="/image3.jpg"
+                src="https://res.cloudinary.com/dvhcaimzt/image/upload/w_1000/q_auto/f_auto/v1733495911/IMG-20241206-WA0018_enbrbg.jpg"
                 width={1920}
                 height={1080}
                 alt="معدات بناء عالية التقنية أثناء العمل"
                 loading="lazy"
+                unoptimized
+              />
+            </div>
+            <div className="embla__slide">
+              <Image
+                className="object-cover brightness-50 max-sm:h-screen"
+                src="https://res.cloudinary.com/dvhcaimzt/image/upload/w_1000/q_auto/f_auto/v1733495899/IMG-20241206-WA0010_yqzopu.jpg"
+                width={1920}
+                height={1080}
+                alt="معدات بناء عالية التقنية أثناء العمل"
+                loading="lazy"
+                unoptimized
               />
             </div>
           </div>

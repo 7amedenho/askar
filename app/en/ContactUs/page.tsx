@@ -62,9 +62,9 @@ export default function ContactUs() {
             </div>
             {/* Hero Images */}
             <div className="flex aspect-square lg:aspect-auto lg:h-[35rem] relative">
-              <div className="w-3/5 h-[80%] rounded-3xl overflow-hidden border-8 border-gray-200 dark:border-slate-800 z-30">
+              <div className="w-3/5 h-[80%] rounded-3xl overflow-hidden border-8 border-gray-200 dark:border-slate-800 z-20">
                 <Image
-                  src="https://res.cloudinary.com/dvhcaimzt/image/upload/v1732973096/IMG-20241129-WA0050_ebxwog.jpg"
+                  src="https://res.cloudinary.com/dvhcaimzt/image/upload/w_1000/q_auto/f_auto/v1732973096/IMG-20241129-WA0050_ebxwog.jpg"
                   alt="Building plan"
                   width={1300}
                   height={1300}
@@ -74,7 +74,7 @@ export default function ContactUs() {
               </div>
               <div className="absolute right-0 bottom-0 h-[calc(100%-50px)] w-4/5 rounded-3xl overflow-hidden border-4 border-gray-200 dark:border-gray-800 z-10">
                 <Image
-                  src="https://res.cloudinary.com/dvhcaimzt/image/upload/v1732973092/IMG-20241129-WA0040_ymfcca.jpg"
+                  src="https://res.cloudinary.com/dvhcaimzt/image/upload/w_1000/q_auto/f_auto/v1732973092/IMG-20241129-WA0040_ymfcca.jpg"
                   alt="Working on a housing project"
                   height={1300}
                   width={1300}

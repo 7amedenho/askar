@@ -15,7 +15,10 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "ASKAR Co.",
+  title: {
+    default: "ASKAR GROUP",
+    template: "%s | ASKAR GROUP",
+  },
   description:
     "Askar Co. for General Contracting, a leading provider of construction services in Egypt.",
 };

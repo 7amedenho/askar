@@ -103,7 +103,7 @@ export default function Footer() {
           </p>
         </div>
         <p className="text-sm text-gray-50 max-sm:mt-2 text-center">
-          Made with M . Hamedenho ❤️.
+          Made with Hamedenho ❤️.
         </p>
       </div>
 

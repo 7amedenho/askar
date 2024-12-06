@@ -24,8 +24,7 @@ const Contact = () => {
             height="100%"
             className="absolute inset-0"
             title="map"
-            scrolling="no"
-            src="https://www.google.com/maps/embed?..."
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.8838489773057!2d29.837416!3d30.990099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5ed007bd747f7%3A0xb7e745a21acf81e4!2z2YXYtdmG2Lkg2LnYs9mD2LEg2YTYqti02YPZitmEINin2YTZhdi52KfYr9mG!5e0!3m2!1sar!2seg!4v1689595835366!5m2!1sar!2seg"
           ></iframe>
           <div className="bg-white dark:bg-gray-700 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="w-full lg:w-1/2 px-6 mb-4 lg:mb-0">

@@ -103,7 +103,7 @@ export default function Footer() {
           </p>
         </div>
         <p className="text-sm max-sm:text-xs text-gray-50 max-sm:mt-2 text-center">
-          تم التصميم بواسطة م . حامدنهو ❤️.
+          تم التصميم بواسطة Hamedenho ❤️.
         </p>
       </div>
 

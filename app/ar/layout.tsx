@@ -5,6 +5,7 @@ import Navbar from "@/app/ar/components/Sections/Navbar";
 import { Providers } from "../providers";
 import Footer from "@/app/ar/components/Sections/Footer";
 import Loaderar from "@/components/ui/Loaderar";
+import { Metadata } from "next";
 
 const geistSans = localFont({
   src: "../fonts/Cairo-Bold.ttf",
@@ -16,6 +17,19 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+
+export const metadata: Metadata = {
+  title: {
+    default: "عسكر للمقاولات العمومية",
+    template: "%s |  عسكر للمقاولات العمومية",
+  },
+  description:
+    "عسكر جروب للمقاولات العمومية هي مجموعة رائدة تأسست عام 2004، متخصصة في تقديم حلول شاملة ومتطورة في مجالات الأعمال الميكانيكية والهندسية، المشاريع المدنية، وتشكيل وتشغيل المعادن. بفضل أكثر من 20 عامًا من الخبرة وما يزيد عن 300 مشروع ناجح، نلتزم بتقديم خدمات تلبي أعلى معايير الجودة والابتكار. عسكر جروب تعمل بمقرها في الإسكندرية، معتمدة على أحدث التقنيات وفريق عمل محترف لتلبية متطلبات العملاء في مختلف القطاعات.",
+    twitter: {
+      card: "summary_large_image",
+      title: "عسكر للمقاولات العمومية",
+    }
+  };
 
 export default function RootLayout({
   children,
@@ -41,12 +55,16 @@ export default function RootLayout({
           />
           <meta
             name="keywords"
-            content="مجموعة عسكر، مقاولات عامة، خدمات إنشاءات، إنشاءات مصر، عسكر، AskarCo"
+            content="شركة عسكر، مقاولات عامة، خدمات إنشاءات، إنشاءات مصر، عسكر، عسكر جروب"
           />
-          <meta name="author" content="مجموعة عسكر" />
+          <meta name="author" content="شركة عسكر" />
           <link rel="icon" href="/favicon.ico" />
           <link rel="canonical" href="https://askar-Group.com/" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+          <meta />
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
@@ -72,11 +90,11 @@ export default function RootLayout({
             }}
           />
         </Head>
-        <Loaderar Logo={"/logoDM.png"}/>
+        <Loaderar Logo={"/logoDM.png"} />
         <Navbar />
         <main className="w-full min-h-screen">
           <Providers>{children}</Providers>
-        <Footer/>
+          <Footer />
         </main>
       </body>
     </html>
