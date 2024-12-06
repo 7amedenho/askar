@@ -25,11 +25,11 @@ export const metadata: Metadata = {
   },
   description:
     "عسكر جروب للمقاولات العمومية هي مجموعة رائدة تأسست عام 2004، متخصصة في تقديم حلول شاملة ومتطورة في مجالات الأعمال الميكانيكية والهندسية، المشاريع المدنية، وتشكيل وتشغيل المعادن. بفضل أكثر من 20 عامًا من الخبرة وما يزيد عن 300 مشروع ناجح، نلتزم بتقديم خدمات تلبي أعلى معايير الجودة والابتكار. عسكر جروب تعمل بمقرها في الإسكندرية، معتمدة على أحدث التقنيات وفريق عمل محترف لتلبية متطلبات العملاء في مختلف القطاعات.",
-    twitter: {
-      card: "summary_large_image",
-      title: "عسكر للمقاولات العمومية",
-    }
-  };
+  twitter: {
+    card: "summary_large_image",
+    title: "عسكر للمقاولات العمومية",
+  },
+};
 
 export default function RootLayout({
   children,
@@ -59,11 +59,16 @@ export default function RootLayout({
           />
           <meta name="author" content="شركة عسكر" />
           <link rel="icon" href="/favicon.ico" />
-          <link rel="canonical" href="https://askar-Group.com/" />
+          <link rel="canonical" href="https://askargroups.com/ar" />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
+          <meta
+            property="og:image"
+            content="https://askargroups.com/opengraph-image.png"
+          />
+
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
@@ -71,8 +76,8 @@ export default function RootLayout({
                 "@context": "http://schema.org",
                 "@type": "Organization",
                 name: "مجموعة عسكر",
-                url: "https://askar-Group.com/",
-                logo: "https://askar-Group.com/logo.png",
+                url: "https://askargroups.com/ar",
+                logo: "https://askargroups.com/opengraph-image.png",
                 description:
                   "مجموعة عسكر هي المزود الرائد لخدمات المقاولات العامة والإنشاءات في مصر.",
                 address: {
