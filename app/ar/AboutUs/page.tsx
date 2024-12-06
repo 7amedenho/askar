@@ -70,8 +70,8 @@ export default function AboutUs() {
                   الفريدة.
                 </p>
                 <Image
-                  src="/logo.png"
-                  className="max-w-sm mx-auto rounded-lg"
+                  src="/logoCol.png"
+                  className="max-w-sm mx-auto scale-150 rounded-lg"
                   width={300}
                   height={300}
                   alt="Logo"

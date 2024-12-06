@@ -99,7 +99,7 @@ export default function App() {
 
         <NavbarContent className="hidden sm:flex" justify="start">
           <NavbarBrand>
-            <Link href="/">
+            <Link href="/ar">
               {" "}
               {currentTheme === "dark" ? <LogoDM /> : <Logo />}
             </Link>
