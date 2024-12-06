@@ -22,6 +22,19 @@ export const metadata: Metadata = {
   },
   description:
     "Askar Co. for General Contracting, a leading provider of construction services in Egypt.",
+  openGraph: {
+    title: "عسكر للمقاولات العمومية",
+    description:
+      "Askar Co. for General Contracting, a leading provider of construction services in Egypt.",
+    images: [
+      {
+        url: "https://askargroups.com/opengraph-image.png",
+        width: 800,
+        height: 600,
+        alt: "Askar Group",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

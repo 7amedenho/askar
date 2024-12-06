@@ -23,11 +23,25 @@ export const metadata: Metadata = {
     default: "عسكر للمقاولات العمومية",
     template: "%s |  عسكر للمقاولات العمومية",
   },
+
   description:
     "عسكر جروب للمقاولات العمومية هي مجموعة رائدة تأسست عام 2004، متخصصة في تقديم حلول شاملة ومتطورة في مجالات الأعمال الميكانيكية والهندسية، المشاريع المدنية، وتشكيل وتشغيل المعادن. بفضل أكثر من 20 عامًا من الخبرة وما يزيد عن 300 مشروع ناجح، نلتزم بتقديم خدمات تلبي أعلى معايير الجودة والابتكار. عسكر جروب تعمل بمقرها في الإسكندرية، معتمدة على أحدث التقنيات وفريق عمل محترف لتلبية متطلبات العملاء في مختلف القطاعات.",
   twitter: {
     card: "summary_large_image",
     title: "عسكر للمقاولات العمومية",
+  },
+  openGraph: {
+    title: "عسكر للمقاولات العمومية",
+    description:
+      "Askar Co. for General Contracting, a leading provider of construction services in Egypt.",
+    images: [
+      {
+        url: "https://askargroups.com/opengraph-image.png",
+        width: 800,
+        height: 600,
+        alt: "Askar Group",
+      },
+    ],
   },
 };
 
