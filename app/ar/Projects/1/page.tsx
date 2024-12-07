@@ -7,11 +7,12 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import Image from "next/image";
 import Blog from "../../components/Sections/Blog";
+import { Swiper as SwiperClass } from "swiper/types"; // استيراد النوع المناسب
+
 
 export default function Project1() {
   const projectName = "Civil Work at Poiler Stack";
-  const [thumbsSwiper, setThumbsSwiper] = useState<any>(null);
-
+  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass | null>(null);
   const images = [
     {
       src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550693/image3_vcr11b.jpg",
