@@ -26,22 +26,94 @@ const Blog = () => {
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-white dark:bg-slate-800 shadow-lg shadow-gray-200/50 dark:shadow-transparent border border-gray-200/50 dark:border-slate-700/50 rounded-lg">
+          <div className="bg-white hover:-translate-y-2 duration-300 dark:bg-slate-800 shadow-lg shadow-gray-200/50 dark:shadow-transparent border border-gray-200/50 dark:border-slate-700/50 rounded-lg">
             <Image
-              src="/images/working-on-housing-project.jpg"
+              src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550639/image4_ffiazr.jpg"
               alt="illustration"
-              width="1300"
-              height="1000"
+              width="600"
+              height="600"
               className="w-full aspect-[5/3] object-cover bg-gray-100 dark:bg-slate-700 rounded-t-lg"
+              loading="lazy"
+              unoptimized
             />
-            <div className="relative p-4 pt-10">
-             
-             
-              <h1 className="text-xl my-6 font-semibold text-indigo-700 dark:text-slate-200">
-                هنا بعض الطرق الجيدة لكتابة دعم آمن للنمط
+            <div className="relative p-4">
+              <h1 className="text-xl text-center my-6 font-semibold text-indigo-700 dark:text-slate-200">
+                Painting silo outside
               </h1>
               <Link
-                href="#"
+                href="/ar/Projects/PaintingSiloOutside"
+                className="text-indigo-600 dark:text-blue-400 transition hover:text-opacity-90 flex items-center gap-x-3 group"
+              >
+                اقرأ المزيد
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  className="w-4 h-4 transition-all ease-linear group-hover:ml-1"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </Link>
+            </div>
+          </div>
+          <div className="bg-white hover:-translate-y-2 duration-300 dark:bg-slate-800 shadow-lg shadow-gray-200/50 dark:shadow-transparent border border-gray-200/50 dark:border-slate-700/50 rounded-lg">
+            <Image
+              src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550643/image6_vcvyut.jpg"
+              alt="illustration"
+              width="600"
+              height="600"
+              className="w-full aspect-[5/3] object-cover bg-gray-100 dark:bg-slate-700 rounded-t-lg"
+              loading="lazy"
+              unoptimized
+            />
+            <div className="relative p-4">
+              <h1 className="text-xl text-center my-6 font-semibold text-indigo-700 dark:text-slate-200">
+                Civil Work at AFCO Tank (Ramp)
+              </h1>
+              <Link
+                href="/ar/Projects/2"
+                className="text-indigo-600 dark:text-blue-400 transition hover:text-opacity-90 flex items-center gap-x-3 group"
+              >
+                اقرأ المزيد
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  className="w-4 h-4 transition-all ease-linear group-hover:ml-1"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </Link>
+            </div>
+          </div>
+          <div className="bg-white hover:-translate-y-2 duration-300 dark:bg-slate-800 shadow-lg shadow-gray-200/50 dark:shadow-transparent border border-gray-200/50 dark:border-slate-700/50 rounded-lg">
+            <Image
+              src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550734/image13_fyzia6.jpg"
+              alt="illustration"
+              width="600"
+              height="600"
+              className="w-full aspect-[5/3] object-cover bg-gray-100 dark:bg-slate-700 rounded-t-lg"
+              loading="lazy"
+              unoptimized
+            />
+            <div className="relative p-4">
+              <h1 className="text-xl text-center my-6 font-semibold text-indigo-700 dark:text-slate-200">
+                Fabrication erection welding handraill for silo roof
+              </h1>
+              <Link
+                href="/ar/Projects/7"
                 className="text-indigo-600 dark:text-blue-400 transition hover:text-opacity-90 flex items-center gap-x-3 group"
               >
                 اقرأ المزيد
@@ -65,7 +137,7 @@ const Blog = () => {
         </div>
         <div className="flex justify-center">
           <Link
-            href="/en/projects"
+            href="/ar/Projects"
             className="px-5 py-2.5 border border-indigo-600 hover:bg-indigo-700 hover:text-white dark:text-white text-indigo-700 duration-300 flex items-center gap-x-3 rounded-lg"
           >
             مشاهدة المزيد

@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "المشاريع",
@@ -81,90 +82,118 @@ const PorfolioSection = () => {
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
-          <div className="relative p-5 sm:p-6 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 space-y-6">
-            <Image
-              src="/images/hero-img.webp"
-              alt="project cover"
-              width={1300}
-              height={900}
-              className="w-full aspect-[4/3.3] rounded object-cover"
-            />
-            <div className="flex flex-col justify-end space-y-5 text-gray-300">
-              <h1 className="font-semibold text-2xl text-gray-900 dark:text-white">
-                civil work at poiler stack
-              </h1>
+          <Link href="/ar/projects/1" className="rounded-lg">
+            <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600  hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
+              <Image
+                src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550653/image13_u6aacm.jpg"
+                alt="project cover"
+                width={600}
+                height={600}
+                className="w-full aspect-[4/3.3] rounded object-cover"
+              />
+              <div className="flex flex-col justify-end space-y-5 text-gray-300">
+                <h1 className="font-semibold text-2xl text-gray-900 dark:text-white">
+                  Civil Work at Poiler Stack
+                </h1>
+              </div>
             </div>
-          </div>
-          <div className="relative p-5 sm:p-6 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 space-y-6">
-            <Image
-              src="/images/hero-img.webp"
-              alt="project cover"
-              width={1300}
-              height={900}
-              className="w-full aspect-[4/3.3] rounded object-cover"
-            />
-            <div className="flex flex-col justify-end space-y-5 text-gray-300">
-              <h1 className="font-semibold text-2xl text-gray-900 dark:text-white">
+          </Link>
+          <Link href="/ar/projects/2" className="rounded-lg">
+            <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600  hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
+              <Image
+                src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550643/image6_vcvyut.jpg"
+                alt="project cover"
+                width={600}
+                height={600}
+                className="w-full aspect-[4/3.3] rounded object-cover"
+              />
+              <div className="flex flex-col justify-end space-y-5 text-gray-300">
+                <h1 className="font-semibold text-2xl text-gray-900 dark:text-white">
+                  Civil Work at AFCO Tank (Ramp)
+                </h1>
+              </div>
+            </div>
+          </Link>
+          <Link href="/ar/projects/3" className="rounded-lg">
+            <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600  hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
+              <Image
+                src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550639/image4_ffiazr.jpg"
+                alt="project cover"
+                width={600}
+                height={600}
+                className="w-full aspect-[4/3.3] rounded object-cover"
+              />
+              <div className="flex flex-col justify-end space-y-5 text-gray-300">
+                <h1 className="font-semibold text-2xl text-gray-900 dark:text-white">
+                  Painting silo outside
+                </h1>
+              </div>
+            </div>
+          </Link>
+          <Link href="/ar/projects/4" className="rounded-lg">
+            <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600  hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
+              <Image
+                src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550594/image_1_eoxjgm.jpg"
+                alt="project cover"
+                width={600}
+                height={600}
+                className="w-full aspect-[4/3.3] rounded object-cover"
+              />
+              <div className="flex flex-col justify-end space-y-5 text-gray-300">
+                <h1 className="font-semibold text-xl text-gray-900 dark:text-white">
+                  Foundation For Oil Pump at AFCO Tank
+                </h1>
+              </div>
+            </div>
+          </Link>
+          <Link href="/ar/projects/5" className="rounded-lg">
+            <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600 hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
+              <Image
+                src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550802/image13_mhnfto.jpg"
+                alt="project cover"
+                width={600}
+                height={600}
+                className="w-full aspect-[4/3.3] rounded object-cover"
+              />
+              <div className="flex flex-col justify-end space-y-5 text-gray-300">
+                <h1 className="font-semibold text-xl text-gray-900 dark:text-white">
+                  Foundation for mixed ped at DM plant
+                </h1>
+              </div>
+            </div>
+          </Link>
+          <Link href="/ar/projects/6" className="rounded-lg">
+            <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600  hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
+              <Image
+                src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550776/image9_b3jakf.jpg"
+                alt="project cover"
+                width={600}
+                height={600}
+                className="w-full aspect-[4/3.3] rounded object-cover"
+              />
+              <div className="flex flex-col justify-end space-y-5 text-gray-300">
+                <h1 className="font-semibold text-2xl text-gray-900 dark:text-white">
+                 Fire Lines
+                </h1>
+              </div>
+            </div>
+          </Link>
+          <Link href="/ar/projects/7" className="rounded-lg">
+            <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600  hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
+              <Image
+                src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550734/image13_fyzia6.jpg"
+                alt="project cover"
+                width={600}
+                height={600}
+                className="w-full aspect-[4/3.3] rounded object-cover"
+              />
+              <div className="flex flex-col justify-end space-y-5 text-gray-300">
+                <h1 className="font-semibold text-2xl text-gray-900 dark:text-white">
                 Fabrication erection welding handraill for silo roof
-              </h1>
+                </h1>
+              </div>
             </div>
-          </div>
-          <div className="relative p-5 sm:p-6 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 space-y-6">
-            <Image
-              src="/images/hero-img.webp"
-              alt="project cover"
-              width={1300}
-              height={900}
-              className="w-full aspect-[4/3.3] rounded object-cover"
-            />
-            <div className="flex flex-col justify-end space-y-5 text-gray-300">
-              <h1 className="font-semibold text-2xl text-gray-900 dark:text-white">
-                Fire Lines
-              </h1>
-            </div>
-          </div>
-          <div className="relative p-5 sm:p-6 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 space-y-6">
-            <Image
-              src="/images/hero-img.webp"
-              alt="project cover"
-              width={1300}
-              height={900}
-              className="w-full aspect-[4/3.3] rounded object-cover"
-            />
-            <div className="flex flex-col justify-end space-y-5 text-gray-300">
-              <h1 className="font-semibold text-2xl text-gray-900 dark:text-white">
-                Foundation for mixed ped at DM plant
-              </h1>
-            </div>
-          </div>
-          <div className="relative p-5 sm:p-6 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 space-y-6">
-            <Image
-              src="/images/hero-img.webp"
-              alt="project cover"
-              width={1300}
-              height={900}
-              className="w-full aspect-[4/3.3] rounded object-cover"
-            />
-            <div className="flex flex-col justify-end space-y-5 text-gray-300">
-              <h1 className="font-semibold text-2xl text-gray-900 dark:text-white">
-                Painting silo outside
-              </h1>
-            </div>
-          </div>
-          <div className="relative p-5 sm:p-6 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 space-y-6">
-            <Image
-              src="/images/hero-img.webp"
-              alt="project cover"
-              width={1300}
-              height={900}
-              className="w-full aspect-[4/3.3] rounded object-cover"
-            />
-            <div className="flex flex-col justify-end space-y-5 text-gray-300">
-              <h1 className="font-semibold text-2xl text-gray-900 dark:text-white">
-                Civil Work at AFCO Tank (Ramp)
-              </h1>
-            </div>
-          </div>
+          </Link>
         </div>
       </div>
     </section>
