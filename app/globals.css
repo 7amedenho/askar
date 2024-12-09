@@ -266,3 +266,8 @@ ul {
 .swiper-slide img:hover {
   transform: scale(1.05); /* تأثير عند التمرير */
 }
+
+.image-container {
+  aspect-ratio: 4 / 3; /* نسبة العرض إلى الطول */
+  width: 100%; /* ليكون العرض مرن */
+}

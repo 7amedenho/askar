@@ -29,7 +29,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "عسكر للمقاولات العمومية",
-    images: ["https://res.cloudinary.com/dvhcaimzt/image/upload/w_600/q_50/f_auto/v1733511244/opengraph-image_wwy08v.png"],
+    images: [
+      "https://res.cloudinary.com/dvhcaimzt/image/upload/w_600/q_50/f_auto/v1733511244/opengraph-image_wwy08v.png",
+    ],
   },
   openGraph: {
     images: [
@@ -50,6 +52,50 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ar" dir="rtl">
+      <Head>
+        <title>شركة عسكر للمقاولات العمومية</title>
+        <meta
+          name="description"
+          content="اكتشف مجموعة عسكر، الرائدة في خدمات المقاولات العامة والإنشاءات في مصر. نقدم نتائج مميزة تلبي جميع احتياجاتك الإنشائية."
+        />
+        <meta
+          name="keywords"
+          content="شركة عسكر، مقاولات عامة، خدمات إنشاءات، إنشاءات مصر، عسكر، عسكر جروب"
+        />
+        <meta name="author" content="شركة عسكر" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://askargroups.com/ar" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          property="og:image"
+          content="https://askargroups.com/opengraph-image.png"
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "http://schema.org",
+              "@type": "Organization",
+              name: "مجموعة عسكر",
+              url: "https://askargroups.com/ar",
+              logo: "https://askargroups.com/opengraph-image.png",
+              description:
+                "مجموعة عسكر هي المزود الرائد لخدمات المقاولات العامة والإنشاءات في مصر.",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "القاهرة",
+                addressCountry: "مصر",
+              },
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+201000459052",
+                contactType: "خدمة العملاء",
+              },
+            }),
+          }}
+        />
+      </Head>
       <body
         className={
           geistSans.variable +
@@ -59,56 +105,10 @@ export default function RootLayout({
           "bg-background text-foreground font-sans"
         }
       >
-        <Head>
-          <title>شركة عسكر للمقاولات العمومية</title>
-          <meta
-            name="description"
-            content="اكتشف مجموعة عسكر، الرائدة في خدمات المقاولات العامة والإنشاءات في مصر. نقدم نتائج مميزة تلبي جميع احتياجاتك الإنشائية."
-          />
-          <meta
-            name="keywords"
-            content="شركة عسكر، مقاولات عامة، خدمات إنشاءات، إنشاءات مصر، عسكر، عسكر جروب"
-          />
-          <meta name="author" content="شركة عسكر" />
-          <link rel="icon" href="/favicon.ico" />
-          <link rel="canonical" href="https://askargroups.com/ar" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
-          <meta
-            property="og:image"
-            content="https://askargroups.com/opengraph-image.png"
-          />
+        <main className="">
+          <Loaderar Logo={"/logoDM.png"} />
+          <Navbar />
 
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "http://schema.org",
-                "@type": "Organization",
-                name: "مجموعة عسكر",
-                url: "https://askargroups.com/ar",
-                logo: "https://askargroups.com/opengraph-image.png",
-                description:
-                  "مجموعة عسكر هي المزود الرائد لخدمات المقاولات العامة والإنشاءات في مصر.",
-                address: {
-                  "@type": "PostalAddress",
-                  addressLocality: "القاهرة",
-                  addressCountry: "مصر",
-                },
-                contactPoint: {
-                  "@type": "ContactPoint",
-                  telephone: "+201000459052",
-                  contactType: "خدمة العملاء",
-                },
-              }),
-            }}
-          />
-        </Head>
-        <Loaderar Logo={"/logoDM.png"} />
-        <Navbar />
-        <main className="w-full min-h-screen">
           <Providers>{children}</Providers>
           <Footer />
         </main>

@@ -13,17 +13,17 @@ export default function ContactUs() {
     <>
       {/* تحسين SEO */}
       <Head>
-        <title>اتصل بنا | مجموعة عسّكار للمقاولات العامة</title>
+        <title>اتصل بنا | شركة عسكر للمقاولات العامة</title>
         <meta
           name="description"
           content="تواصل مع فريقنا للحصول على حلول مخصصة لاحتياجات عملك. نحن هنا لمساعدتك في تحقيق أهدافك."
         />
         <meta name="keywords" content="اتصال, دعم, حلول الأعمال, تواصل" />
-        <meta name="author" content="مجموعة عسّكار" />
+        <meta name="author" content="مجموعة عسكر" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="canonical" href="https://yourdomain.com/contact-us" />
+        <link rel="canonical" href="https://askargroups.com/ar/ContactUs" />
       </Head>
-      <Loaderar Logo={"/logoDM.png"}/>
+      <Loaderar Logo={"/logoDM.png"} />
       <main className="bg-gradient-to-br dark:from-slate-900 via-gray-800 to-gray-900 overflow-hidden pt-44">
         {/* تأثيرات الخلفية */}
         <div className="absolute inset-0 opacity-20">
@@ -193,12 +193,14 @@ export default function ContactUs() {
                 <p className="mt-2 text-gray-500 dark:text-gray-400">
                   من 10 صباحا الى 6 مساء
                 </p>
-                <p
-                  className="mt-2 text-indigo-500 dark:text-indigo-400"
-                  dir="ltr"
-                >
-                  03 4770952
-                </p>
+                <Link href="tel:034770952">
+                  <p
+                    className="mt-2 text-indigo-500 dark:text-indigo-400"
+                    dir="ltr"
+                  >
+                    03 4770952
+                  </p>
+                </Link>
               </div>
               <div className="flex flex-col items-center justify-center text-center">
                 <span className="p-3 text-indigo-500 rounded-full bg-indigo-100/80 dark:bg-gray-800">

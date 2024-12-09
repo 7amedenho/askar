@@ -20,8 +20,9 @@ const Loader: React.FC<LoaderProps> = () => {
 
   return (
     <motion.div
-      className="fixed inset-0 flex items-center justify-center bg-gray-900" style={{
+      className="fixed w-screen inset-0 flex items-center justify-center bg-gray-900" style={{
         zIndex: 9999
+        
       }}
       initial={{ opacity: 1 }}
       animate={{ opacity: 0 }}

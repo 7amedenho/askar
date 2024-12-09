@@ -24,13 +24,13 @@ const ManegarTalk = () => {
             </h1>
             <div className="mt-10 flex gap-4 justify-center lg:justify-start flex-wrap">
               <Link
-                href="#"
+                href="https://wa.me/+201000459052"
                 className="relative px-6 py-3 before:absolute before:inset-0 before:rounded-lg before:transition active:before:bg-indigo-700 text-white hover:before:bg-indigo-800 before:bg-indigo-600 hover:before:scale-105"
               >
                 <span className="relative">ابدأ الآن</span>
               </Link>
               <Link
-                href="#"
+                href="tel:+201228171485"
                 className="relative px-6 py-3 before:absolute before:inset-0 before:rounded-lg before:transition before:bg-gray-100 dark:before:bg-gray-900 text-indigo-600 dark:text-white hover:before:scale-105"
               >
                 <span className="relative">تعلم المزيد</span>

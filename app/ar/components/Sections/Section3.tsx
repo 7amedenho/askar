@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -37,9 +38,11 @@ export default function HeroSection() {
               الإنتاج على نطاق واسع، نحن ملتزمون بالتميز في كل التفاصيل.
             </p>
             <div className="mt-10 flex max-w-md mx-auto lg:mx-0">
-              <button className="w-full py-3 px-6 bg-transparent border border-indigo-600 hover:bg-indigo-700 hover:text-white dark:text-white text-indigo-700 font-semibold rounded-lg shadow-lg transition-all duration-300">
-                تواصل معنا
-              </button>
+              <Link href="https://wa.me/+201000459052">
+                <button className="w-full py-3 px-6 bg-transparent border border-indigo-600 hover:bg-indigo-700 hover:text-white dark:text-white text-indigo-700 font-semibold rounded-lg shadow-lg transition-all duration-300">
+                  تواصل معنا
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -143,11 +146,6 @@ export default function HeroSection() {
               تتناسب مع تطلعات عملائنا في مختلف القطاعات. رؤيتنا هي أن نصبح
               الاسم الأول في تشكيل المعادن بفضل خدماتنا المميزة وسرعة تنفيذنا.{" "}
             </p>
-            <div className="mt-10 flex max-w-md mx-auto lg:mx-0">
-              <button className="w-full py-3 px-6 bg-transparent border border-indigo-600 hover:bg-indigo-700 hover:text-white dark:text-white text-indigo-700 font-semibold rounded-lg shadow-lg transition-all duration-300">
-                تواصل معنا
-              </button>
-            </div>
           </div>
 
           {/* قسم الصورة */}

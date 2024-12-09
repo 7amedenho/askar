@@ -8,6 +8,7 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai"; // استبدا�
 import { Button } from "../../../../components/ui/button";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Typewriter from "typewriter-effect";
+import Link from "next/link";
 
 export default function Hero() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()]);
@@ -51,14 +52,15 @@ export default function Hero() {
             }}
           />
         </h2>
-
-        <Button
-          variant="ghost"
-          className="mt-4 hover:border-indigo-600 hover:text-indigo-600 pointer-events-auto"
-        >
-          <AiOutlineArrowLeft />
-          اتصل بنا
-        </Button>
+        <Link href="tel:+201228171485">
+          <Button
+            variant="ghost"
+            className="mt-4 hover:border-indigo-600 hover:text-indigo-600 pointer-events-auto"
+          >
+            <AiOutlineArrowLeft />
+            اتصل بنا
+          </Button>
+        </Link>
       </div>
 
       {/* Carousel with lazy loading and alt texts for SEO */}

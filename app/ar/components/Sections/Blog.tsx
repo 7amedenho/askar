@@ -41,7 +41,7 @@ const Blog = () => {
                 Painting silo outside
               </h1>
               <Link
-                href="/ar/Projects/PaintingSiloOutside"
+                href="/ar/Projects/3"
                 className="text-indigo-600 dark:text-blue-400 transition hover:text-opacity-90 flex items-center gap-x-3 group"
               >
                 اقرأ المزيد

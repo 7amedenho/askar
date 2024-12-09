@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,6 +8,18 @@ export const metadata: Metadata = {
 };
 const PorfolioSection = () => {
   return (
+    <>
+    <Head>
+        <title>المشاريع  | شركة عسكر للمقاولات العامة</title>
+        <meta
+          name="description"
+          content="تعرف أكثر عن مجموعة عسكر للمقاولات العامة، شركة مصرية رائدة في الأعمال الميكانيكية والمدنية."
+        />
+        <meta name="keywords" content="مشاريع,  اعمال عسكر, عسكر,  عسكر جروب" />
+        <meta name="author" content="مجموعة عسكر" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href="https://askargroups/ar/Projects" />
+      </Head>
     <section className="py-44 relative bg-gradient-to-br dark:from-slate-900 via-gray-800 to-gray-900 overflow-hidden">
       <section className="py-4 mt-14 sm:mt16 lg:mt-0">
         <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 grid lg:grid-cols-2 lg:items-center gap-10">
@@ -82,7 +95,7 @@ const PorfolioSection = () => {
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
-          <Link href="/ar/projects/1" className="rounded-lg">
+          <Link href="/ar/Projects/1" className="rounded-lg">
             <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600  hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
               <Image
                 src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550653/image13_u6aacm.jpg"
@@ -98,7 +111,7 @@ const PorfolioSection = () => {
               </div>
             </div>
           </Link>
-          <Link href="/ar/projects/2" className="rounded-lg">
+          <Link href="/ar/Projects/2" className="rounded-lg">
             <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600  hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
               <Image
                 src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550643/image6_vcvyut.jpg"
@@ -114,7 +127,7 @@ const PorfolioSection = () => {
               </div>
             </div>
           </Link>
-          <Link href="/ar/projects/3" className="rounded-lg">
+          <Link href="/ar/Projects/3" className="rounded-lg">
             <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600  hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
               <Image
                 src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550639/image4_ffiazr.jpg"
@@ -130,7 +143,7 @@ const PorfolioSection = () => {
               </div>
             </div>
           </Link>
-          <Link href="/ar/projects/4" className="rounded-lg">
+          <Link href="/ar/Projects/4" className="rounded-lg">
             <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600  hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
               <Image
                 src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550594/image_1_eoxjgm.jpg"
@@ -146,7 +159,7 @@ const PorfolioSection = () => {
               </div>
             </div>
           </Link>
-          <Link href="/ar/projects/5" className="rounded-lg">
+          <Link href="/ar/Projects/5" className="rounded-lg">
             <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600 hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
               <Image
                 src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550802/image13_mhnfto.jpg"
@@ -162,7 +175,7 @@ const PorfolioSection = () => {
               </div>
             </div>
           </Link>
-          <Link href="/ar/projects/6" className="rounded-lg">
+          <Link href="/ar/Projects/6" className="rounded-lg">
             <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600  hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
               <Image
                 src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550776/image9_b3jakf.jpg"
@@ -178,7 +191,7 @@ const PorfolioSection = () => {
               </div>
             </div>
           </Link>
-          <Link href="/ar/projects/7" className="rounded-lg">
+          <Link href="/ar/Projects/Fabrication erection welding handraill for silo roof" className="rounded-lg">
             <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600  hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
               <Image
                 src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550734/image13_fyzia6.jpg"
@@ -197,6 +210,7 @@ const PorfolioSection = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

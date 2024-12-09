@@ -49,7 +49,7 @@ export default function HeroSection() {
                 </p>
                 <div className="flex flex-wrap items-center gap-4 z-30 sm:w-max sm:flex-nowrap mx-auto lg:mx-0">
                   <Link
-                    href="#contact"
+                    href="tel:+201228171485"
                     className="py-3 px-6 bg-transparent border border-indigo-600 hover:bg-indigo-700 hover:text-white dark:text-white text-indigo-700 font-semibold rounded-lg shadow-lg transition-all duration-300"
                     aria-label="اتصل بنا"
                   >

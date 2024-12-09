@@ -56,25 +56,25 @@ export default function Footer() {
           {/* روابط التنقل */}
           <div className="flex flex-wrap justify-center mt-6 -mx-4">
             <Link
-              href="/"
+              href="/ar"
               className="mx-4 text-sm text-gray-100 transition-colors duration-300 hover:text-indigo-500"
             >
               الرئيسية
             </Link>
             <Link
-              href="/projects"
+              href="/Projects"
               className="mx-4 text-sm text-gray-100 transition-colors duration-300 hover:text-indigo-500"
             >
               المشاريع
             </Link>
             <Link
-              href="/about"
+              href="/AboutUs"
               className="mx-4 text-sm text-gray-100 transition-colors duration-300 hover:text-indigo-500"
             >
               من نحن
             </Link>
             <Link
-              href="/contact"
+              href="/ContactUs"
               className="mx-4 text-sm text-gray-100 transition-colors duration-300 hover:text-indigo-500"
             >
               تواصل معنا
@@ -87,10 +87,16 @@ export default function Footer() {
         {/* وسائل التواصل الاجتماعي وملاحظة أسفل الصفحة */}
         <div className="flex flex-col items-center sm:flex-row sm:justify-between">
           <div className="flex items-center space-x-4" dir="ltr">
-            <Link href="#" className="hover:text-indigo-300 duration-300">
+            <Link
+              href="https://www.facebook.com/profile.php?id=61566988097016&mibextid=ZbWKwL"
+              className="hover:text-indigo-300 duration-300"
+            >
               <FaFacebook className="text-white" />
             </Link>
-            <Link href="#" className="hover:text-indigo-300 duration-300">
+            <Link
+              href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.8838489773057!2d29.837416!3d30.990099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5ed007bd747f7%3A0xb7e745a21acf81e4!2z2YXYtdmG2Lkg2LnYs9mD2LEg2YTYqti02YPZitmEINin2YTZhdi52KfYr9mG!5e0!3m2!1sar!2seg!4v1689595835366!5m2!1sar!2seg"
+              className="hover:text-indigo-300 duration-300"
+            >
               <FaLocationDot className="text-white" />
             </Link>
             <div className="flex items-center font-mono text-white hover:text-indigo-300 transition-all duration-300">
