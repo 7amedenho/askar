@@ -30,7 +30,7 @@ const ManegarTalk = () => {
                 <span className="relative">ابدأ الآن</span>
               </Link>
               <Link
-                href="tel:+201228171485"
+                href="/ar/AboutUs"
                 className="relative px-6 py-3 before:absolute before:inset-0 before:rounded-lg before:transition before:bg-gray-100 dark:before:bg-gray-900 text-indigo-600 dark:text-white hover:before:scale-105"
               >
                 <span className="relative">تعلم المزيد</span>

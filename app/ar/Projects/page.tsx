@@ -191,7 +191,7 @@ const PorfolioSection = () => {
               </div>
             </div>
           </Link>
-          <Link href="/ar/Projects/Fabrication erection welding handraill for silo roof" className="rounded-lg">
+          <Link href="/ar/Projects/7" className="rounded-lg">
             <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600  hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
               <Image
                 src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550734/image13_fyzia6.jpg"

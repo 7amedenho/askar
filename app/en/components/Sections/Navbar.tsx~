@@ -1,20 +1,23 @@
 "use client";
 
-import React, {useEffect, useState} from "react";
+import React, {useState, useEffect} from "react";
 import {
-    Link,
     Navbar,
     NavbarBrand,
+    NavbarMenuToggle,
+    NavbarMenuItem,
+    NavbarMenu,
     NavbarContent,
     NavbarItem,
-    NavbarMenu,
-    NavbarMenuItem,
-    NavbarMenuToggle,
+    Link,
 } from "@nextui-org/react";
 import {IoLanguageSharp} from "react-icons/io5";
 import Logo from "@/components/ui/Logo";
 import LogoDM from "@/components/ui/LogoDM";
-import {FaFacebook, FaLocationDot,} from "react-icons/fa6";
+import {
+    FaFacebook,
+    FaLocationDot,
+} from "react-icons/fa6";
 import {MdMarkEmailUnread} from "react-icons/md";
 import {SiWhatsapp} from "react-icons/si";
 import {ThemeSwitcher} from "../../../../components/ui/ThemeSwitcher";
