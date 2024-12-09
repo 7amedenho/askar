@@ -38,7 +38,7 @@ export default function HeroSection() {
                                 <p>
                                     Askar Group for General Contracting was established in 2004, specializing in
                                     mechanical and civil works, combining expertise and innovation to deliver
-                                    high-quality services that meet clients' needs.
+                                    high-quality services that meet clients needs.
                                 </p>
 
                                 <p>
