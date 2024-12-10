@@ -98,7 +98,7 @@ export default function AboutUs() {
                             </div>
                             <div className="flex justify-center sm:scale-150">
                                 <Image
-                                    src="/logoCol.png"
+                                    src="https://res.cloudinary.com/dvhcaimzt/image/upload/v1733816078/LogoCol_irb0cz.png"
                                     alt="Logo"
                                     width={300}
                                     height={300}

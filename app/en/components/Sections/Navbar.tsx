@@ -135,7 +135,7 @@ export default function App() {
                     </NavbarItem>
                     <NavbarItem>
                         <Link
-                            href="/en/AboutUs"
+                            href="/en/About"
                             className="hover:text-indigo-700 dark:hover:text-indigo-400 text-lg transition-all duration-300 border-b-2 border-transparent hover:border-indigo-700 dark:hover:border-indigo-400"
                         >
                             About Us
@@ -217,7 +217,7 @@ export default function App() {
                     </NavbarMenuItem>
                     <NavbarMenuItem>
                         <Link
-                            href="/en/AboutUs"
+                            href="/en/About"
                             className="hover:text-indigo-300 text-white dark:hover:text-indigo-400 transition-all duration-300"
                         >
                             About Us

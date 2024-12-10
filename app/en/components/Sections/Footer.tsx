@@ -65,7 +65,7 @@ export default function Footer() {
               Projects
             </Link>
             <Link
-                href="/en/AboutUs"
+                href="/en/About"
               className="mx-4 text-sm text-gray-100 transition-colors duration-300 hover:text-indigo-500"
             >
               About Us

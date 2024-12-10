@@ -73,7 +73,7 @@ export default function HeroSection() {
                                 className="flex-1 lg:w-1/2 relative lg:flex justify-end pr-8"
                             >
                                 <div
-                                    className="rounded-lg max-sm:w-3/4 absolute right-0 bottom-0 w-3/4 h-2/5 bg-gradient-to-tr from-pink-100 to-indigo-100 dark:bg-gradient-to-tr dark:from-gray-950 dark:to-gray-700"/>
+                                    className="rounded-lg max-sm:hidden max-sm:w-3/4 absolute right-0 bottom-0 w-3/4 h-2/5 bg-gradient-to-tr from-pink-100 to-indigo-100 dark:bg-gradient-to-tr dark:from-gray-950 dark:to-gray-700"/>
                                 <Image
                                     src="https://res.cloudinary.com/dvhcaimzt/image/upload/w_1000/q_auto/f_auto/v1733059671/IMG-20241129-WA0053_yhnzqv_w1zjfm.png"
                                     width={700}
