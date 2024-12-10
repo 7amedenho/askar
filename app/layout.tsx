@@ -17,13 +17,13 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Askar Group",
+    default: "Askar Group | General Contracting Services",
     template: "%s | Askar Group",
   },
   description:
     "Askar Co. for General Contracting, a leading provider of construction services in Egypt.",
   openGraph: {
-    title: "عسكر للمقاولات العمومية",
+    title: "Askar Group | عسكر للمقاولات العمومية",
     description:
       "Askar Co. for General Contracting, a leading provider of construction services in Egypt.",
     images: [

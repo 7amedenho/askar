@@ -43,9 +43,9 @@ export default function RootLayout({
             name="keywords"
             content="Askar Group, General Contracting, Construction Services, Egypt Construction, Askar, AskarCo"
           />
-          <meta name="author" content="Askar Group" />
+          <meta name="author" content="Askar Group | General Contracting" />
           <link rel="icon" href="/favicon.ico" />
-          <link rel="canonical" href="https://askar-Group.com/" />
+          <link rel="canonical" href="https://askargroups.com/en" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <script
             type="application/ld+json"
@@ -54,8 +54,8 @@ export default function RootLayout({
                 "@context": "http://schema.org",
                 "@type": "Organization",
                 name: "Askar Group",
-                url: "https://askar-Group.com/",
-                logo: "https://askar-Group.com/logo.png",
+                url: "https://askargroups.com/en",
+                logo: "https://askargroups.com/logo.png",
                 description:
                   "Askar Group is a leading provider of general contracting and construction services in Egypt.",
                 address: {
