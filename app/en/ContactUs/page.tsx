@@ -22,7 +22,7 @@ export default function ContactUs() {
                 <meta name="keywords" content="Contact, Support, Business Solutions, Communication"/>
                 <meta name="author" content="Askar Group"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-                <link rel="canonical" href="https://askargroups.com/en/ContactUs"/>
+                <link rel="canonical" href="https://askarconstruction.com/en/ContactUs"/>
             </Head>
 
             <Loaderar Logo={"/logoDM.png"}/>

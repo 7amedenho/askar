@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://askargroups.com'; // ضع رابط موقعك الأساسي
+  const baseUrl = 'https://askarconstruction.com'; // ضع رابط موقعك الأساسي
 
   // الروابط المدعومة
   const pages = [

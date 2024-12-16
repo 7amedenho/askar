@@ -5,7 +5,7 @@ export async function GET() {
     User-agent: *
     Disallow:
 
-    Sitemap: https://askargroups.com/sitemap.xml
+    Sitemap: https://askarconstruction.com/sitemap.xml
   `;
 
   return new NextResponse(robots, {

@@ -64,11 +64,11 @@ export default function RootLayout({
         />
         <meta name="author" content="شركة عسكر" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://askargroups.com/ar" />
+        <link rel="canonical" href="https://askarconstruction.com/ar" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           property="og:image"
-          content="https://askargroups.com/opengraph-image.png"
+          content="https://askarconstruction.com/opengraph-image.png"
         />
 
         <script
@@ -78,8 +78,8 @@ export default function RootLayout({
               "@context": "http://schema.org",
               "@type": "Organization",
               name: "مجموعة عسكر",
-              url: "https://askargroups.com/ar",
-              logo: "https://askargroups.com/opengraph-image.png",
+              url: "https://askarconstruction.com/ar",
+              logo: "https://askarconstruction.com/opengraph-image.png",
               description:
                 "مجموعة عسكر هي المزود الرائد لخدمات المقاولات العامة والإنشاءات في مصر.",
               address: {

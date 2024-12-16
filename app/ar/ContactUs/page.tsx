@@ -21,7 +21,7 @@ export default function ContactUs() {
         <meta name="keywords" content="اتصال, دعم, حلول الأعمال, تواصل" />
         <meta name="author" content="مجموعة عسكر" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="canonical" href="https://askargroups.com/ar/ContactUs" />
+        <link rel="canonical" href="https://askarconstruction.com/ar/ContactUs" />
       </Head>
       <Loaderar Logo={"/logoDM.png"} />
       <main className="bg-gradient-to-br dark:from-slate-900 via-gray-800 to-gray-900 overflow-hidden pt-44">

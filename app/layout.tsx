@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       "Askar Co. for General Contracting, a leading provider of construction services in Egypt.",
     images: [
       {
-        url: "https://askargroups.com/opengraph-image.png",
+        url: "https://askarconstruction.com/opengraph-image.png",
         width: 800,
         height: 600,
         alt: "Askar Group",
@@ -48,7 +48,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         <meta
           property="og:image"
-          content="https://askargroups.com/opengraph-image.png"
+          content="https://askarconstruction.com/opengraph-image.png"
         />
       </Head>
       <body
