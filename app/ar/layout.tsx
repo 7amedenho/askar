@@ -66,10 +66,10 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://askarconstruction.com/ar" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
+{/*         <meta
           property="og:image"
           content="https://askarconstruction.com/opengraph-image.png"
-        />
+        /> */}
 
         <script
           type="application/ld+json"
@@ -79,7 +79,7 @@ export default function RootLayout({
               "@type": "Organization",
               name: "مجموعة عسكر",
               url: "https://askarconstruction.com/ar",
-              logo: "https://askarconstruction.com/opengraph-image.png",
+              logo: "https://askarconstruction.com/logo.png",
               description:
                 "مجموعة عسكر هي المزود الرائد لخدمات المقاولات العامة والإنشاءات في مصر.",
               address: {
