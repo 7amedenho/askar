@@ -72,7 +72,7 @@ export default function App() {
           </Link>
           <div className="flex items-center font-mono text-white hover:text-indigo-300 transition-all duration-300">
             <MdMarkEmailUnread className="text-xl" />
-            <span className="ml-1 text-lg">askar@info.com</span>
+          
           </div>
         </nav>
         <div className="flex items-center text-gray-200">
