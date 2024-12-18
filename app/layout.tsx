@@ -46,6 +46,7 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="google-site-verification" content="ASa4-NNTn_GkvfKQTswqaCyZCURgenp4hQyhtpZ8CKg" />
         <meta
           property="og:image"
           content="https://askarconstruction.com/opengraph-image.png"
