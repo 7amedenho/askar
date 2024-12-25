@@ -135,6 +135,14 @@ export default function App() {
             </NavbarItem>
             <NavbarItem>
               <Link
+                href="/ar/Blog"
+                className="hover:text-indigo-700 dark:hover:text-indigo-400 text-lg transition-all duration-300 border-b-2 border-transparent hover:border-indigo-700 dark:hover:border-indigo-400"
+              >
+                المدونة
+              </Link>
+            </NavbarItem>
+            <NavbarItem>
+              <Link
                 href="/ar/AboutUs"
                 className="hover:text-indigo-700 dark:hover:text-indigo-400 text-lg transition-all duration-300 border-b-2 border-transparent hover:border-indigo-700 dark:hover:border-indigo-400"
               >
@@ -197,6 +205,14 @@ export default function App() {
                 className="hover:text-indigo-300 text-white dark:hover:text-indigo-400 transition-all duration-300"
               >
                 المشاريع
+              </Link>
+            </NavbarMenuItem>
+            <NavbarMenuItem>
+              <Link
+                href="/ar/Blog"
+                className="hover:text-indigo-700 dark:hover:text-indigo-400 text-lg transition-all duration-300 border-b-2 border-transparent hover:border-indigo-700 dark:hover:border-indigo-400"
+              >
+                المدونة
               </Link>
             </NavbarMenuItem>
             <NavbarMenuItem>

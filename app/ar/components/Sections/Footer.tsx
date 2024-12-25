@@ -68,6 +68,12 @@ export default function Footer() {
               المشاريع
             </Link>
             <Link
+              href="/ar/Blog"
+              className="mx-4 text-sm text-gray-100 transition-colors duration-300 hover:text-indigo-500"
+            >
+              المدونة
+            </Link>
+            <Link
               href="/ar/AboutUs"
               className="mx-4 text-sm text-gray-100 transition-colors duration-300 hover:text-indigo-500"
             >
