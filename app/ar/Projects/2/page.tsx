@@ -14,13 +14,13 @@ export default function Project1() {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass | null>(null);
 
   const images = [
-    { src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550643/image5_l7qkpt.jpg" },
+  
     { src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550638/image2_rgscts.jpg" },
     { src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550630/image1_bwlwlp.jpg" },
     { src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550639/image4_nkenx1.jpg" },
-    { src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550706/image8_qf0zrx.jpg" },
+   
     { src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550647/image7_xkdefy.jpg" },
-    { src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550643/image6_vcvyut.jpg" },
+    
   ];
 
   return (
