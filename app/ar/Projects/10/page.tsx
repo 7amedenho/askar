@@ -38,6 +38,9 @@ export default function Project1() {
       src: "https://res.cloudinary.com/dqzcvlxzw/image/upload/v1735224719/WhatsApp_Image_2024-12-26_at_4.38.32_PM_2_tueuaq.jpg",
     },
     {
+      src: "https://res.cloudinary.com/dqzcvlxzw/image/upload/v1735230315/%D8%B5%D9%88%D8%B1%D8%A9_%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8_%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE_2024-12-26_%D9%81%D9%8A_16.38.33_6a5659d8_ykndho.jpg",
+    },
+    {
       src: "https://res.cloudinary.com/dqzcvlxzw/image/upload/v1735224719/WhatsApp_Image_2024-12-26_at_4.38.32_PM_bh1ozg.jpg",
     },
     {
