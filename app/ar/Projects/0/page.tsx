@@ -10,46 +10,17 @@ import Blog from "../../components/Sections/Blog";
 import { Swiper as SwiperClass } from "swiper/types";
 
 export default function Project1() {
-  const projectName = "Fire Lines (ترميم ودهان)";
+  const projectName =
+    "بعض الأعمال الميكانيكية";
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass | null>(null);
 
   const images = [
     {
-      src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550754/image4_cpkfkm.jpg ",
-    },
-    {
-      src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550756/image7_ag35fa.jpg ",
-    },
-    {
-      src:"https://res.cloudinary.com/dqzcvlxzw/image/upload/v1735225963/%D8%B5%D9%88%D8%B1%D8%A9_%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8_%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE_2024-12-26_%D9%81%D9%8A_17.11.36_ac0b48b6_fpgsuq.jpg"
-    },
-    {
-      src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550757/image5_rkdle7.jpg ",
-    },
-    {
-      src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550764/image8_rr3iv4.jpg ",
-    },
-    {
-      src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550743/image1_tvaybc.jpg ",
-    },
-    {
-      src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550745/image2_mvchnd.jpg ",
-    },
-    {
-      src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550749/image3_ptybxt.jpg ",
-    },
-    {
-      src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550751/image10_mpz2gd.jpg ",
-    },
-    {
-      src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550752/image11_ndgd2x.jpg ",
+      src: "https://res.cloudinary.com/dqzcvlxzw/image/upload/v1735222549/WhatsApp_Image_2024-12-02_at_4.10.06_PM_hxwwyw.jpg",
     },
 
     {
-      src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550810/image12_mmjjfi.jpg ",
-    },
-    {
-      src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550776/image9_b3jakf.jpg ",
+      src: "https://res.cloudinary.com/dqzcvlxzw/image/upload/v1735222547/WhatsApp_Image_2024-12-02_at_4.10.06_PM_1_lrzmzl.jpg",
     },
   ];
 
@@ -86,7 +57,7 @@ export default function Project1() {
                   alt={`Project image ${index + 1}`}
                   className="rounded-lg object-cover"
                   fill
-                  priority
+                  loading="lazy"
                   unoptimized
                 />
               </div>

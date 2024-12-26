@@ -226,7 +226,23 @@ const PortfolioSection = () => {
               />
               <div className="flex flex-col justify-end space-y-5 text-gray-300">
                 <h1 className="font-semibold text-2xl text-gray-900 dark:text-white">
-                Operating and shaping a factory chimney
+                Maintenance and renovation of boiler chimney
+                </h1>
+              </div>
+            </div>
+          </Link>
+          <Link href="/en/Projects/9" className="rounded-lg">
+            <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600  hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
+              <Image
+                src="https://res.cloudinary.com/dqzcvlxzw/image/upload/v1735221603/WhatsApp_Image_2024-12-26_at_3.56.42_PM_1_j8kkxz.jpg"
+                alt="project cover"
+                width={600}
+                height={600}
+                className="w-full aspect-[4/3.3] rounded object-cover"
+              />
+              <div className="flex flex-col justify-end space-y-5 text-gray-300">
+                <h1 className="font-semibold text-2xl text-gray-900 dark:text-white">
+                Maintenance and renewal of a 48-inch line with a length of 100 meters
                 </h1>
               </div>
             </div>

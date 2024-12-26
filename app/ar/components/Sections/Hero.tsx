@@ -52,15 +52,22 @@ export default function Hero() {
             }}
           />
         </h2>
-        <Link href="tel:+201228171485">
-          <Button
-            variant="ghost"
-            className="mt-4 hover:border-indigo-600 hover:text-indigo-600 pointer-events-auto"
-          >
-            <AiOutlineArrowLeft />
-            اتصل بنا
-          </Button>
-        </Link>
+        <div className="flex justify-center">
+          <Link href="tel:+201228171485">
+            <Button
+              variant="ghost"
+              className="mt-4 hover:border-indigo-600 hover:text-indigo-600 pointer-events-auto"
+            >
+              <AiOutlineArrowLeft />
+              اتصل بنا
+            </Button>
+          </Link>
+          <Link href="/ar/Blog">
+            <button className="mt-4 hover:border-indigo-600 text-white bg-indigo-600 hover:bg-indigo-500 px-4 py-2 pointer-events-auto rounded-full duration-300">
+              المدونة
+            </button>
+          </Link>
+        </div>
       </div>
 
       {/* Carousel with lazy loading and alt texts for SEO */}
@@ -90,7 +97,18 @@ export default function Hero() {
             <div className="embla__slide">
               <Image
                 className="object-cover brightness-50 max-sm:h-screen"
-                src="https://res.cloudinary.com/dvhcaimzt/image/upload/w_1000/q_auto/f_auto/v1733495911/IMG-20241206-WA0018_enbrbg.jpg"
+                src="https://res.cloudinary.com/dqzcvlxzw/image/upload/v1735225963/%D8%B5%D9%88%D8%B1%D8%A9_%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8_%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE_2024-12-26_%D9%81%D9%8A_17.10.29_cd5a2313_dqftkz.jpg"
+                width={1920}
+                height={1080}
+                alt="معدات بناء عالية التقنية أثناء العمل"
+                loading="lazy"
+                unoptimized
+              />
+            </div>
+            <div className="embla__slide">
+              <Image
+                className="object-cover brightness-50 max-sm:h-screen"
+                src="https://res.cloudinary.com/dqzcvlxzw/image/upload/c_pad,w_1152,h_632/v1735226137/Untitled_htp5mu.png"
                 width={1920}
                 height={1080}
                 alt="معدات بناء عالية التقنية أثناء العمل"

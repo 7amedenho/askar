@@ -64,7 +64,7 @@ const Blog = () => {
           </div>
           <div className="bg-white hover:-translate-y-2 duration-300 dark:bg-slate-800 shadow-lg shadow-gray-200/50 dark:shadow-transparent border border-gray-200/50 dark:border-slate-700/50 rounded-lg">
             <Image
-              src="https://res.cloudinary.com/dvhcaimzt/image/upload/q_auto,f_auto,w_600/v1733550643/image6_vcvyut.jpg"
+              src="https://res.cloudinary.com/dqzcvlxzw/image/upload/v1735222549/WhatsApp_Image_2024-12-02_at_4.10.06_PM_hxwwyw.jpg"
               alt="illustration"
               width="600"
               height="600"
@@ -74,10 +74,10 @@ const Blog = () => {
             />
             <div className="relative p-4">
               <h1 className="text-xl text-center my-6 font-semibold text-indigo-700 dark:text-slate-200">
-                Civil Work at AFCO Tank (Ramp)
+               بعض الأعمال الميكانيكية
               </h1>
               <Link
-                href="/ar/Projects/2"
+                href="/ar/Projects/0"
                 className="text-indigo-600 dark:text-blue-400 transition hover:text-opacity-90 flex items-center gap-x-3 group"
               >
                 اقرأ المزيد

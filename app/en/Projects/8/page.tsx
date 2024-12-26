@@ -10,7 +10,7 @@ import Blog from "../../components/Sections/Blog";
 import { Swiper as SwiperClass } from "swiper/types";
 
 export default function Project1() {
-  const projectName = "Operating and shaping a factory chimney";
+  const projectName = "Maintenance and renovation of boiler chimney";
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass | null>(null);
 
   const images = [
