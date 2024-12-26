@@ -215,6 +215,22 @@ const PortfolioSection = () => {
                   </div>
                 </div>
               </Link>
+              <Link href="/en/Projects/8" className="rounded-lg">
+            <div className="relative p-5 sm:p-6 border border-indigo-300 dark:border-gray-600  hover:-translate-y-2 duration-300 md:p-8 rounded-lg bg-gray-100 dark:bg-gray-900 space-y-6">
+              <Image
+                src="https://res.cloudinary.com/dqzcvlxzw/image/upload/v1735213489/IMG-20241226-WA0093_pkfgqp.jpg"
+                alt="project cover"
+                width={600}
+                height={600}
+                className="w-full aspect-[4/3.3] rounded object-cover"
+              />
+              <div className="flex flex-col justify-end space-y-5 text-gray-300">
+                <h1 className="font-semibold text-2xl text-gray-900 dark:text-white">
+                Operating and shaping a factory chimney
+                </h1>
+              </div>
+            </div>
+          </Link>
             </div>
           </div>
         </section>

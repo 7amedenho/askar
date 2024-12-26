@@ -1,5 +1,4 @@
 import TopStories from "./components/TopStories";
-import NewsGrid from "./components/NewsGrid";
 
 export default function Home() {
   return (
@@ -25,9 +24,6 @@ export default function Home() {
 
       <main className="container mx-auto px-4 py-8">
         <TopStories />
-        <div className="flex flex-col lg:flex-row gap-8 mt-8">
-          <NewsGrid />
-        </div>
       </main>
     </div>
   );
