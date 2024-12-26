@@ -37,6 +37,9 @@ export default function Project1() {
     {
       src: "https://res.cloudinary.com/dqzcvlxzw/image/upload/v1735221602/WhatsApp_Image_2024-12-26_at_3.56.44_PM_ypumnp.jpg",
     },
+    {
+      src: "https://res.cloudinary.com/dqzcvlxzw/image/upload/v1735221603/WhatsApp_Image_2024-12-26_at_3.56.44_PM_1_kvfian.jpg",
+    },
   ];
 
   return (
