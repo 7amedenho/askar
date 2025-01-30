@@ -26,6 +26,7 @@ export default function Project1() {
       src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550622/image6_x44nfs.jpg",
     },
     
+    
   ];
 
   return (

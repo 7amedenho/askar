@@ -10,7 +10,7 @@ import Blog from "../../components/Sections/Blog";
 import { Swiper as SwiperClass } from "swiper/types";
 
 export default function Project1() {
-  const projectName = "Fire Lines";
+  const projectName = "Fire Lines (ترميم ودهان)";
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass | null>(null);
 
   const images = [
@@ -19,6 +19,9 @@ export default function Project1() {
     },
     {
       src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550756/image7_ag35fa.jpg ",
+    },
+    {
+      src:"https://res.cloudinary.com/dqzcvlxzw/image/upload/v1735225963/%D8%B5%D9%88%D8%B1%D8%A9_%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8_%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE_2024-12-26_%D9%81%D9%8A_17.11.36_ac0b48b6_fpgsuq.jpg"
     },
     {
       src: "https://res.cloudinary.com/dvhcaimzt/image/upload/v1733550757/image5_rkdle7.jpg ",
