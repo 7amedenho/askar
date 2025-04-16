@@ -57,7 +57,7 @@ export default function HeroSection() {
                   </Link>
                 </div>
               </div>
-              <div
+              {/* <div
                 aria-hidden="true"
                 className="flex-1 lg:w-1/2 relative lg:flex justify-end pr-8"
               >
@@ -71,7 +71,7 @@ export default function HeroSection() {
                   title="مهندس في مجموعة عسكر"
                   loading="lazy"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
