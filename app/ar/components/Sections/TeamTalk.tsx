@@ -20,11 +20,7 @@ const TeamTalk = () => {
       name: "حسن عماد قاسم",
       position: "مهندس مدني",
     },
-    {
-      quote: "إدارة المالية تتجاوز الأرقام—إنها تتعلق بالتخطيط من أجل الاستقرار والنمو المستدام.",
-      name: "كريم محمد الشربيني",
-      position: "مدير مالي",
-    },
+    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
