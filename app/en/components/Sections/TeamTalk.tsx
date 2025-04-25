@@ -21,11 +21,7 @@ const TeamTalk = () => {
             name: "Hassan Emad Qasim",
             position: "Civil Engineer",
         },
-        {
-            quote: "Financial management goes beyond numbers—it's about planning for stability and sustainable growth.",
-            name: "Karim Mohamed El-Sherbiny",
-            position: "Financial Director",
-        }
+       
 
 
     ];
